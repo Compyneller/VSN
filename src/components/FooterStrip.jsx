@@ -7,7 +7,7 @@ const FooterStrip = () => {
       style={{ background: "#1A237E" }}
     >
       <p className="m-auto text-center">
-        © VSN Sell Solution all Rights Reserved. <br />
+        © VSN Solutions all Rights Reserved. <br />
       </p>
     </div>
   );

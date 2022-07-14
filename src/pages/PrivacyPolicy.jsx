@@ -17,7 +17,7 @@ const PrivacyPolicy = () => {
             <li>
               <h5>The “introduction” </h5>
               <p>
-                VSN Sell Solution is committed to protecting & respecting your
+                VSN Solutions is committed to protecting & respecting your
                 privacy. This Privacy Policy Notice will describe how VSN Sell
                 Solution collects your personal information through the VSN Sell
                 Solution website. This Privacy Policy covers your access and use
@@ -27,25 +27,22 @@ const PrivacyPolicy = () => {
                 <br />
                 <br /> This Privacy Policy explains when, why, and how we
                 collect and use personal information about our customers(people)
-                that visit VSN Sell Solution Website or use VSN Sell Solution
-                Services, the conditions under which we may disclose your
-                personal information to others, and how we keep your personal
-                information secure with us.
+                that visit VSN Solutions Website or use VSN Solutions Services,
+                the conditions under which we may disclose your personal
+                information to others, and how we keep your personal information
+                secure with us.
                 <br />
-                <br /> VSN Sell Solution strongly recommends you check the
-                Privacy Policy occasionally to be aware of the changes made in
-                the privacy policy of VSN Sell Solution. By using VSN Sell
-                Solution Website or our Services, you are agreeing to be bound
-                by this Privacy Policy every time you use our Website or other
-                services.
+                <br /> VSN Solutions strongly recommends you check the Privacy
+                Policy occasionally to be aware of the changes made in the
+                privacy policy of VSN Solutions. By using VSN Sell Solution
+                Website or our Services, you are agreeing to be bound by this
+                Privacy Policy every time you use our Website or other services.
               </p>
             </li>
             <li>
-              <h5>
-                What “personal information” does VSN Sell Solution collect?
-              </h5>
+              <h5>What “personal information” does VSN Solutions collect?</h5>
               <p>
-                VSN Sell Solution ( “we” or “us” or “our” refers to VSN Sell
+                VSN Solutions ( “we” or “us” or “our” refers to VSN Sell
                 Solution) collects your email id, name, mobile number, gender,
                 date of birth, nationality, device ID, geographic location, IP
                 address, login ID & password, date & time of your request,
@@ -56,9 +53,9 @@ const PrivacyPolicy = () => {
               </p>
             </li>
             <li>
-              <h5> How does VSN Sell Solution “use” your information?</h5>
+              <h5> How does VSN Solutions “use” your information?</h5>
               <p>
-                VSN Sell Solution uses your information in the following way:
+                VSN Solutions uses your information in the following way:
                 <ol>
                   <li>
                     To fulfill a contract or take steps to a contract like a
@@ -106,8 +103,7 @@ const PrivacyPolicy = () => {
                     If you do not want to receive promoting data regarding our
                     programs, products, options, or services, you'll be able to
                     opt-out of marketing communications from our side such as
-                    email. Where you provide VSN Sell Solution (us) consent,
-                    like
+                    email. Where you provide VSN Solutions (us) consent, like
                     <ol type="a">
                       <li>
                         Wherever you ask us to send marketing data to you via a
@@ -141,7 +137,7 @@ const PrivacyPolicy = () => {
               </p>
             </li>
             <li>
-              <h5>How does VSN Sell Solution “share” your information?</h5>
+              <h5>How does VSN Solutions “share” your information?</h5>
               <p>
                 We don't sell your personal information to alternative
                 organizations for business (or commercial) purposes. We just use
@@ -191,40 +187,39 @@ const PrivacyPolicy = () => {
               </p>
             </li>
             <li>
-              <h5>Who can “use” VSN Sell Solution Services legally?</h5>
+              <h5>Who can “use” VSN Solutions Services legally?</h5>
               <p>
                 We don't allow anyone to use our service if the user is below
-                18. By using the VSN Sell Solution service, the user is
-                representing that he/she is at least 18 years or above.
+                18. By using the VSN Solutions service, the user is representing
+                that he/she is at least 18 years or above.
               </p>
             </li>
             <li>
-              <h5>What “security” does VSN Sell Solution provide you?</h5>
+              <h5>What “security” does VSN Solutions provide you?</h5>
               <p>
                 We have built our system to ensure the security of your privacy.
                 We ensure our users that we work to protect the security of
                 their private data during transmission by using encrypted
                 protocols and software. We try to maintain electronics rules and
                 follow order safety rules during the collection, storage, and
-                disclosure of your personal information. VSN Sell Solution
-                security procedures mean, we may ask or ask you to verify your
-                identity to protect you against unauthorized access to your VSN
-                Sell Solution account password. We recommend you to use a unique
-                password for your VSN Sell Solution account that is not shared
-                with anyone and logging out when you finish using a shared
-                mobile or computer. We strongly suggest you do not share your
-                personal information such as your login ID or password
-                credentials, in this case, VSN Sell Solution cannot protect your
-                data, also this privacy policy is not accountlicable in this
-                case.
+                disclosure of your personal information. VSN Solutions security
+                procedures mean, we may ask or ask you to verify your identity
+                to protect you against unauthorized access to your VSN Sell
+                Solution account password. We recommend you to use a unique
+                password for your VSN Solutions account that is not shared with
+                anyone and logging out when you finish using a shared mobile or
+                computer. We strongly suggest you do not share your personal
+                information such as your login ID or password credentials, in
+                this case, VSN Solutions cannot protect your data, also this
+                privacy policy is not accountlicable in this case.
               </p>
             </li>
             <li>
-              <h5>What information can you “access” from VSN Sell Solution?</h5>
+              <h5>What information can you “access” from VSN Solutions?</h5>
               <p>
                 A user can access their personal information, including name,
                 home address, payment method, profile data, and transaction
-                history in the ‘my account’ section of the VSN Sell Solution
+                history in the ‘my account’ section of the VSN Solutions
                 account.
               </p>
             </li>
@@ -232,7 +227,7 @@ const PrivacyPolicy = () => {
               <h5>What rights do you have?</h5>
               <p>
                 If you want to know or have any queries or any question or
-                objection that how VSN Sell Solution collect and process your
+                objection that how VSN Solutions collect and process your
                 personal information then please reach out to us{" "}
                 <a href="mailto:sell@vsnsellsolutions.com">
                   sell@vsnsellsolutions.com
@@ -248,8 +243,8 @@ const PrivacyPolicy = () => {
                 may also object to our processing of your personal data or ask
                 that we restrict the processing of your personal data in certain
                 instances, by contacting{" "}
-                <a href="mailto:VSN Sell Solutionhelp.contact@gmail.com">
-                  VSN Sell Solutionhelp.contact@gmail.com
+                <a href="mailto:VSN Solutionshelp.contact@gmail.com">
+                  VSN Solutionshelp.contact@gmail.com
                 </a>
                 <ol>
                   <li>
@@ -264,7 +259,7 @@ const PrivacyPolicy = () => {
                     Right to rectify- Users can request the rectification of
                     their Personal Data which is inaccurate, and also add to it.
                     Users can also change their personal information in their
-                    VSN Sell Solution Account at any time.
+                    VSN Solutions Account at any time.
                   </li>
                   <li>
                     {" "}
@@ -315,10 +310,10 @@ const PrivacyPolicy = () => {
               </p>
             </li>
             <li>
-              <h5>How long is my information “stored” by VSN Sell Solution?</h5>
+              <h5>How long is my information “stored” by VSN Solutions?</h5>
               <p>
                 We store your personal information to allow you to continuously
-                use the VSN Sell Solution service, it is required in order to
+                use the VSN Solutions service, it is required in order to
                 complete the relevant process described in this Privacy Policy
                 and may be needed by law such as for regular tax and accounting,
                 considered with Anti-Money Laundering laws, or maybe for
@@ -326,7 +321,7 @@ const PrivacyPolicy = () => {
               </p>
             </li>
             <li>
-              <h5>How to Contact VSN Sell Solution?</h5>
+              <h5>How to Contact VSN Solutions?</h5>
               <p>
                 You can contact us at{" "}
                 <a href="mailto:sell@vsnsellsolutions.com">
@@ -338,19 +333,19 @@ const PrivacyPolicy = () => {
             </li>
             <li>What are the Conditions of Use, Notices, and Revisions?</li>
             <p>
-              If you are using (or choose to use) VSN Sell Solution Services,
-              use and any dispute over protection are subject to this privacy
-              policy and our Terms of Use. If you have any doubts or concerns
-              about safety (privacy) at VSN Sell Solution, please contact us by
-              writing a brief description, and our team will try to resolve it.
-              The business of VSN Sell Solution changes constantly, and our
-              Privacy Policy Notice will change accordingly. It is advised, a
-              user should check our websites regularly to witness recent changes
-              in the Privacy Notice. If you do not agree with the revised
-              content of our website, you shall stop accessing VSN Sell Solution
+              If you are using (or choose to use) VSN Solutions Services, use
+              and any dispute over protection are subject to this privacy policy
+              and our Terms of Use. If you have any doubts or concerns about
+              safety (privacy) at VSN Solutions, please contact us by writing a
+              brief description, and our team will try to resolve it. The
+              business of VSN Solutions changes constantly, and our Privacy
+              Policy Notice will change accordingly. It is advised, a user
+              should check our websites regularly to witness recent changes in
+              the Privacy Notice. If you do not agree with the revised content
+              of our website, you shall stop accessing VSN Solutions
               immediately. When an updated version of the Privacy Policy is
-              released, your continued access to VSN Sell Solution means that
-              you agree to the updated content and agree to abide by the updated
+              released, your continued access to VSN Solutions means that you
+              agree to the updated content and agree to abide by the updated
               Privacy Notice. Unless stated otherwise, our current Privacy
               Notice accountlies to all information that we have about you and
               your account.

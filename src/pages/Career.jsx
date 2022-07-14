@@ -30,7 +30,7 @@ const Career = () => {
             </Button>
             <br />
             <br />
-            <h3>Why Join VSN Sell Solution?</h3>
+            <h3>Why Join VSN Solutions?</h3>
             <p>
               If playing with gadgets, smartphones & electronic devices has
               always been your favorite hobby, and if you have the technical

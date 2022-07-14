@@ -52,9 +52,9 @@ const AboutUs = () => {
                 <p>
                   Imagination attracts creativity. After getting the objective,
                   we have launched a platform where you can BUY, SELL, RECYCLE &
-                  REPAIR. With VSN Sell Solution, you will get the best &
-                  reasonable prices on every product and your satisfaction is
-                  our guarantee.
+                  REPAIR. With VSN Solutions, you will get the best & reasonable
+                  prices on every product and your satisfaction is our
+                  guarantee.
                 </p>
               </div>
             </div>
@@ -66,7 +66,7 @@ const AboutUs = () => {
                   We have a team of professionals who are highly qualified &
                   trained in their respective job roles. The smart & advanced AI
                   tech, experienced customer support, finance managers &
-                  innovative directors are running ‘VSN Sell Solution’. We have
+                  innovative directors are running ‘VSN Solutions’. We have
                   promised to grow, cope & work every second!
                 </p>
               </div>
