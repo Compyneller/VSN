@@ -14,9 +14,14 @@ function CustomCarousel() {
               <div className="col-6 d-flex flex-column justify-content-center">
                 <h1 className="text-light">Purana Phone Becho Aur Cash Pao</h1>
                 <h5 className="text-light">Free Pickup | Instant Payment</h5>
-                <Button variant="dark" style={{ width: "fit-content" }}>
+                <a
+                  className="bg-dark p-2 rounded text-light"
+                  href="mailto:sell@vsnsellsolutions.com"
+                  variant="dark"
+                  style={{ width: "fit-content" }}
+                >
                   Check Price
-                </Button>
+                </a>
               </div>
               <div className="col-6 d-flex justify-content-end align-items-end ">
                 <img height={320} src={image1} alt="" />
@@ -34,9 +39,14 @@ function CustomCarousel() {
                   Sell your old Phone at Best Price
                 </h1>
                 <h5 className="text-light">Free Pickup | Instant Payment</h5>
-                <Button variant="dark" style={{ width: "fit-content" }}>
+                <a
+                  className="bg-dark p-2 rounded text-light"
+                  href="mailto:sell@vsnsellsolutions.com"
+                  variant="dark"
+                  style={{ width: "fit-content" }}
+                >
                   Check Price
-                </Button>
+                </a>
               </div>
               <div className="col-6 d-flex justify-content-end align-items-end ">
                 <img height={320} src={image2} alt="" />
@@ -54,9 +64,14 @@ function CustomCarousel() {
                 <h5 className="text-dark">
                   Refer your Friend to Casify and Earn 100{" "}
                 </h5>
-                <Button variant="dark" style={{ width: "fit-content" }}>
+                <a
+                  className="bg-dark p-2 rounded text-light"
+                  href="mailto:sell@vsnsellsolutions.com"
+                  variant="dark"
+                  style={{ width: "fit-content" }}
+                >
                   Check Price
-                </Button>
+                </a>
               </div>
               <div className="col-6 d-flex justify-content-end align-items-end ">
                 <img height={320} src={image3} alt="" />
@@ -72,9 +87,14 @@ function CustomCarousel() {
               <div className="col-6 d-flex flex-column justify-content-center">
                 <h1 className="text-light">Looking for your next phone</h1>
                 <h5 className="text-light">Click Here </h5>
-                <Button variant="light" style={{ width: "fit-content" }}>
+                <a
+                  className="bg-light p-2 rounded text-dark"
+                  href="mailto:sell@vsnsellsolutions.com"
+                  variant="dark"
+                  style={{ width: "fit-content" }}
+                >
                   Check Price
-                </Button>
+                </a>
               </div>
               <div className="col-6 d-flex justify-content-end align-items-end ">
                 <img

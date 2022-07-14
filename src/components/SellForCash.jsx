@@ -15,24 +15,41 @@ const SellForCash = () => {
     <Container>
       <Row className="g-3 text-center">
         <Col xs={4} sm={3} md={3} lg={2}>
-          <Card className="shadow-sm" style={{ width: "100%" }}>
-            <Card.Body className="d-flex flex-column justify-content-center align-items-center ">
-              <img src={phone} alt="" className="customIcons" />
-              <p>Sell Phone</p>
-            </Card.Body>
-          </Card>
+          <a href="mailto:sell@vsnsellsolutions.com">
+            <Card className="shadow-sm" style={{ width: "100%" }}>
+              <Card.Body className="d-flex flex-column justify-content-center align-items-center ">
+                <img src={phone} alt="" className="customIcons" />
+                <p>Sell Phone</p>
+              </Card.Body>
+            </Card>
+          </a>
         </Col>
         <Col xs={4} sm={3} md={3} lg={2}>
-          <Card className="shadow-sm" style={{ width: "100%" }}>
-            <Card.Body className="d-flex flex-column justify-content-center align-items-center ">
-              <img src={laptop} className="customIcons" alt="" />
-              <p>Sell Laptop</p>
-            </Card.Body>
-          </Card>
-        </Col>
-
+          <a href="mailto:sell@vsnsellsolutions.com">
+            <Card className="shadow-sm" style={{ width: "100%" }}>
+              <Card.Body className="d-flex flex-column justify-content-center align-items-center ">
+                <img src={laptop} className="customIcons" alt="" />
+                <p>Sell Laptop</p>
+              </Card.Body>
+            </Card>
+          </a>
+        </Col>{" "}
         <Col xs={4} sm={3} md={3} lg={2}>
-          <Card className="shadow-sm" style={{ width: "100%" }}>
+          <a href="mailto:sell@vsnsellsolutions.com">
+            <Card className="shadow-sm" style={{ width: "100%" }}>
+              <Card.Body className="d-flex flex-column justify-content-center align-items-center ">
+                <img src={tablet} alt="" className="customIcons" />
+                <p>Sell Tablet</p>
+              </Card.Body>
+            </Card>
+          </a>
+        </Col>
+        <Col xs={4} sm={3} md={3} lg={2}>
+          <Card
+            className="shadow-sm"
+            style={{ width: "100%" }}
+            onClick={() => window.alert("Coming Soon")}
+          >
             <Card.Body className="d-flex flex-column justify-content-center align-items-center ">
               <img src={tv} alt="" className="customIcons" />
               <p>Sell TV</p>
@@ -40,15 +57,11 @@ const SellForCash = () => {
           </Card>
         </Col>
         <Col xs={4} sm={3} md={3} lg={2}>
-          <Card className="shadow-sm" style={{ width: "100%" }}>
-            <Card.Body className="d-flex flex-column justify-content-center align-items-center ">
-              <img src={tablet} alt="" className="customIcons" />
-              <p>Sell Tablet</p>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col xs={4} sm={3} md={3} lg={2}>
-          <Card className="shadow-sm" style={{ width: "100%" }}>
+          <Card
+            className="shadow-sm"
+            style={{ width: "100%" }}
+            onClick={() => window.alert("Coming Soon")}
+          >
             <Card.Body className="d-flex flex-column justify-content-center align-items-center ">
               <img src={earbud} className="customIcons" alt="" />
               <p>Sell Earbuds</p>
@@ -56,32 +69,65 @@ const SellForCash = () => {
           </Card>
         </Col>
         <Col xs={4} sm={3} md={3} lg={2}>
-          <Card className="shadow-sm" style={{ width: "100%" }}>
+          <Card
+            className="shadow-sm"
+            style={{ width: "100%" }}
+            onClick={() => window.alert("Coming Soon")}
+          >
             <Card.Body className="d-flex flex-column justify-content-center align-items-center ">
               <img src={watch} className="customIcons" alt="" />
               <p>Sell Smart Watch</p>
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={4} sm={3} md={3} lg={2}>
-          <Card className="shadow-sm" style={{ width: "100%" }}>
+        <Col
+          xs={4}
+          sm={3}
+          md={3}
+          lg={2}
+          onClick={() => window.alert("Coming Soon")}
+        >
+          <Card
+            className="shadow-sm"
+            style={{ width: "100%" }}
+            onClick={() => window.alert("Coming Soon")}
+          >
             <Card.Body className="d-flex flex-column justify-content-center align-items-center ">
               <img src={speaker} alt="" className="customIcons" />
               <p>Sell Smart Speaker</p>
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={4} sm={3} md={3} lg={2}>
-          <Card className="shadow-sm" style={{ width: "100%" }}>
+        <Col
+          xs={4}
+          sm={3}
+          md={3}
+          lg={2}
+          onClick={() => window.alert("Coming Soon")}
+        >
+          <Card
+            className="shadow-sm"
+            style={{ width: "100%" }}
+            onClick={() => window.alert("Coming Soon")}
+          >
             <Card.Body className="d-flex flex-column justify-content-center align-items-center ">
               <img src={imac} alt="" className="customIcons" />
               <p>Sell iMac</p>
             </Card.Body>
           </Card>
         </Col>
-
-        <Col xs={4} sm={3} md={3} lg={2}>
-          <Card className="shadow-sm" style={{ width: "100%" }}>
+        <Col
+          xs={4}
+          sm={3}
+          md={3}
+          lg={2}
+          onClick={() => window.alert("Coming Soon")}
+        >
+          <Card
+            className="shadow-sm"
+            style={{ width: "100%" }}
+            onClick={() => window.alert("Coming Soon")}
+          >
             <Card.Body className="d-flex flex-column justify-content-center align-items-center ">
               <img src={camera} className="customIcons" alt="" />
               <p>Sell DSLR Camera</p>

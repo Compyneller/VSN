@@ -22,8 +22,10 @@ const PrivacyPolicy = () => {
                 Solution collects your personal information through the VSN Sell
                 Solution website. This Privacy Policy covers your access and use
                 of this Website,
-                <a href="www.vsnsolutions.com">www.vsnsolutions.com</a> as well
-                as associated content.
+                <a href="www.vsnsellsolutions.com">
+                  www.vsnsellsolutions.com
+                </a>{" "}
+                as well as associated content.
                 <br />
                 <br /> This Privacy Policy explains when, why, and how we
                 collect and use personal information about our customers(people)
@@ -243,8 +245,8 @@ const PrivacyPolicy = () => {
                 may also object to our processing of your personal data or ask
                 that we restrict the processing of your personal data in certain
                 instances, by contacting{" "}
-                <a href="mailto:VSN Solutionshelp.contact@gmail.com">
-                  VSN Solutionshelp.contact@gmail.com
+                <a href="mailto:mailto:sell@vsnsellsolutions.com">
+                  mailto:sell@vsnsellsolutions.com
                 </a>
                 <ol>
                   <li>
