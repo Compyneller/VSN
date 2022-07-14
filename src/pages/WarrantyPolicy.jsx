@@ -62,14 +62,14 @@ const WarrantyPolicy = () => {
           <p>
             {" "}
             You can claim the warranty by writing to us at{" "}
-            <a href="mailto:VSN Sell Solutioncontact.help@gmail.com">
-              VSN Sell Solutioncontact.help@gmail.com
+            <a href="mailto:sell@vsnsellsolutions.com">
+              sell@vsnsellsolutions.com
             </a>{" "}
             with the service details and the invoice delivered to you at the
             time of repair. If you need any further assistance, please connect
             via Chat or write to us at{" "}
-            <a href="mailto:VSN Sell Solutioncontact.help@gmail.com">
-              VSN Sell Solutioncontact.help@gmail.com
+            <a href="mailto:sell@vsnsellsolutions.com">
+              sell@vsnsellsolutions.com
             </a>
             <br />
             The warranty is not applicable under the following scenarios :

@@ -43,16 +43,16 @@ const RefundPolicy = () => {
                 <li>
                   Share the video of the phone with the prevailing display issue
                   on the{" "}
-                  <a href="mailto:VSN Sell Solutioncontact.help@gmail.com">
-                    VSN Sell Solutioncontact.help@gmail.com
+                  <a href="mailto:sell@vsnsellsolutions.com">
+                    sell@vsnsellsolutions.com
                   </a>
                 </li>
                 <li>
                   {" "}
                   Send us your phone number/order number/IMEI Number. Just about
                   any of it on the{" "}
-                  <a href="mailto:VSN Sell Solutioncontact.help@gmail.com">
-                    VSN Sell Solutioncontact.help@gmail.com
+                  <a href="mailto:sell@vsnsellsolutions.com">
+                    sell@vsnsellsolutions.com
                   </a>
                 </li>
                 <li>

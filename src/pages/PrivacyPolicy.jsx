@@ -22,8 +22,8 @@ const PrivacyPolicy = () => {
                 Solution collects your personal information through the VSN Sell
                 Solution website. This Privacy Policy covers your access and use
                 of this Website,
-                <a href="www.wesell.org.in">www.wesell.org.in</a> as well as
-                associated content.
+                <a href="www.vsnsolutions.com">www.vsnsolutions.com</a> as well
+                as associated content.
                 <br />
                 <br /> This Privacy Policy explains when, why, and how we
                 collect and use personal information about our customers(people)

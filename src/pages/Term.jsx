@@ -21,16 +21,16 @@ const Term = () => {
             Near RAJIV CHOWK METRO STATION New Delhi,India. <br />
             <br />
             “VSN Sell Solution” owns and operates the website,{" "}
-            <a href="www.wesell.org.in">www.wesell.org.in</a> The website(s) we
-            have now or in the future that reference these Terms & Conditions
-            (collectively, “VSN Sell Solution”), provides a marketplace and
-            platform for consumers and organizations to sell or repair their
-            used, old and other articles, and conduct varied transactions and
-            activities, with third-party companies and other entities and
-            persons (collectively, “Third Parties”). The VSN Sell Solution
-            marketplace, platform, and related functionality, whether provided
-            through the Site or through other means, are collectively referred
-            to as the services (the “Services”). <br />
+            <a href="www.vsnsolutions.com">www.vsnsolutions.com</a> The
+            website(s) we have now or in the future that reference these Terms &
+            Conditions (collectively, “VSN Sell Solution”), provides a
+            marketplace and platform for consumers and organizations to sell or
+            repair their used, old and other articles, and conduct varied
+            transactions and activities, with third-party companies and other
+            entities and persons (collectively, “Third Parties”). The VSN Sell
+            Solution marketplace, platform, and related functionality, whether
+            provided through the Site or through other means, are collectively
+            referred to as the services (the “Services”). <br />
             <br />
             If you do not agree with any part of these Terms & Conditions, you
             must not use the Site or Services. Your continued use of the Site or
