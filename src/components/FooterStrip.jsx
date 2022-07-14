@@ -8,8 +8,6 @@ const FooterStrip = () => {
     >
       <p className="m-auto text-center">
         © VSN Sell Solution all Rights Reserved. <br />
-        The Brand VSN Sell Solution belongs to Fincritic India Private Limited
-        registered in New Delhi,India.
       </p>
     </div>
   );

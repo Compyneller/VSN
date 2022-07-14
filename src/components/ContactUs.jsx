@@ -36,8 +36,8 @@ const ContactUs = () => {
           </div>
           <div className="col-12 col-lg-11">
             <p>
-              2-A/3, KUNDAN MANSION, ASAF ALI RD, TURKMAN GATE, NEW DELHI,
-              DELHI, 110002 (Near RAJIV CHOWK METRO STATION)
+              563, VSN Solutions, Cheema Nagar Extension Jalandhar, Punjab,
+              144001
             </p>
           </div>
         </Row>

@@ -14,8 +14,8 @@ const WarrantyPolicy = () => {
         </Card.Header>
         <Card.Body>
           <p>
-            VSN Sell Solution repair offers you a 6 month warranty on every
-            mobile screen repaired/replaced by us from the date of invoice.{" "}
+            VSN Solutions repair offers you a 6 month warranty on every mobile
+            screen repaired/replaced by us from the date of invoice.{" "}
           </p>
           <h5>The 6 months warranty covers :</h5>
           <ol>

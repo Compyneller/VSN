@@ -13,8 +13,7 @@ const RefundPolicy = () => {
         </Card.Header>
         <Card.Body>
           <h5>
-            VSN Sell Solution Repair offers a refund within 2 days of the
-            service.
+            VSN Solutions Repair offers a refund within 2 days of the service.
           </h5>
           <p>You can claim your refund for the Screen replaced with us:</p>
           <ol>

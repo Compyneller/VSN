@@ -234,8 +234,8 @@ const PrivacyPolicy = () => {
                 If you want to know or have any queries or any question or
                 objection that how VSN Sell Solution collect and process your
                 personal information then please reach out to us{" "}
-                <a href="mailto:VSN Sell Solutionhelp.contact@gmail.com">
-                  VSN Sell Solutionhelp.contact@gmail.com
+                <a href="mailto:sell@vsnsellsolutions.com">
+                  sell@vsnsellsolutions.com
                 </a>
                 <br />
                 <br />
@@ -329,8 +329,8 @@ const PrivacyPolicy = () => {
               <h5>How to Contact VSN Sell Solution?</h5>
               <p>
                 You can contact us at{" "}
-                <a href="mailto:VSN Sell Solutionhelp.contact@gmail.com">
-                  VSN Sell Solutionhelp.contact@gmail.com
+                <a href="mailto:sell@vsnsellsolutions.com">
+                  sell@vsnsellsolutions.com
                 </a>{" "}
                 for any questions or queries. Our data protection officer will
                 resolve your problem concerning your personal information data.

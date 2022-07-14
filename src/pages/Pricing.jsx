@@ -26,9 +26,9 @@ const Pricing = () => {
           <br />
           <br />
           <p>
-            VSN Sell Solution produces a price quote for your device based on
-            the information provided by you when placing your order. This
-            activity is based on the following criteria:
+            VSN Solutions produces a price quote for your device based on the
+            information provided by you when placing your order. This activity
+            is based on the following criteria:
           </p>
           <ul>
             <li> The age of your device</li>

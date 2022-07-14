@@ -15,7 +15,7 @@ const NavBarComp = () => {
     >
       <Container style={{ padding: "1rem " }}>
         <Navbar.Brand href="/">
-          <h3>VSN Sell Solutions</h3>
+          <h3>VSN Solutions</h3>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
