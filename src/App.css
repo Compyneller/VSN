@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card{
+  border: none !important;
+  height: 100%;
+}
+.container{
+  width: 65% !important;
+  padding: 3rem 0;
+}
+.contactUsCard{
+  border: 3px solid #1A237E !important;
+  border-radius: 10px !important;
+}
+
+.containerPrivacy a{
+  color: blue !important;
+  
+}
+.customIcons{
+  width: 50px;
+  height: 50px;
+}
+.AboutUsContainer{
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+  padding: 3rem 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.firstCircle{
+  position: fixed;
+  z-index: -1;
+  top: 0vh;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  background-color: #E8EAF6;
+}
+.secondCircle{
+  position: fixed;
+  z-index: -1;
+  top: 50%;
+  left: 10%;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  background-color: #E8EAF6;
+}
+.thirdCircle{
+  position: fixed;
+  z-index: -1;
+  top: 30%;
+  right: 10%;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  
+  background-color: #ffffff;
+  opacity: 0.8;
+  background: repeating-linear-gradient( 45deg, #1A237E, #1A237E 5px, #ffffff 5px, #ffffff 25px );
+}
+.aboutFont{
+  font-family: 'Oswald', sans-serif;
+  font-size: 55px !important;
+}
+
+.aboutUsCardImage{
+  width: 15rem;
+  height: 15rem;
+  background: #1A237E;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.aboutUsCardImage img{
+  width: 14rem ;
+  height: 14rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.WhyHeading{
+  font-size: 20px !important;
+  font-weight: bold;
+}
+.whyText{
+  font-size: 16px !important;
+}
+.whyTrustBg{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80%;
+  
+  height: 80%;
+  mix-blend-mode: lighten;
+  background-color: #000000;
+opacity: 0.8;
+background: radial-gradient(circle, transparent 20%, #000000 20%, #000000 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #000000 20%, #000000 80%, transparent 80%, transparent) 57.5px 57.5px, linear-gradient(#ffffff 4.6000000000000005px, transparent 4.6000000000000005px) 0 -2.3000000000000003px, linear-gradient(90deg, #ffffff 4.6000000000000005px, #000000 4.6000000000000005px) -2.3000000000000003px 0;
+background-size: 115px 115px, 115px 115px, 57.5px 57.5px, 57.5px 57.5px;
+}
+@media screen and (max-width : 750px) {
+  
+  .container{
+  width: 100% !important;
+  }
+  .customIcons{
+    width: 30px;
+    height: 30px;
+  }
+  .aboutUsCardImage{
+    width: 10rem;
+    height: 10rem;
+    background: #3B7E18;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .aboutUsCardImage img{
+    width: 9rem ;
+    height: 9rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .firstCircle{
+    position: fixed;
+    z-index: -1;
+    top: 0vh;
+    left: 0;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color: #E8F5E9;
+  }
+  .secondCircle{
+    position: fixed;
+    z-index: -1;
+    top: 50%;
+    left: 0;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color: #E8F5E9;
+  }
+  .thirdCircle{
+    position: fixed;
+    z-index: -1;
+    top: 30%;
+    right: 0;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    
+    background-color: #ffffff;
+    opacity: 0.8;
+    background: repeating-linear-gradient( 45deg, #3B7E18, #3B7E18 5px, #ffffff 5px, #ffffff 25px );
+  }
+
+}
+
+
+.mobileCarouselContainer{
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  display: flex;
+}
+.child{
+  scroll-snap-align: start;
+}
+.mobileCarouselCard{
+  width: 80%;
+  border-radius: 20px;
+  /* height: 30vh; */
+
+}
+
+img {
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+
+  /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+  image-rendering: -webkit-optimize-contrast;
+}
+a{
+  color: black !important;
+  text-decoration: none !important;
+}
+h1{
+  font-size: 2vw !important ;
+}
+h2{
+  font-size: 1.8vw !important;
+}
+h3{
+  font-size: 1.5vw !important;
+}
+h4{
+  font-size: 1.3vw !important;
+}
+h5{
+  font-size: 1.1vw !important;
+}
+p{
+  font-size: .9vw !important;
+}
+
+@media screen and (max-width : 990px) {
+  h1{
+    font-size: 2.5vw !important ;
+  }
+  h2{
+    font-size: 2.3vw !important;
+  }
+  h3{
+    font-size: 2vw !important;
+  }
+  h4{
+    font-size: 2vw !important;
+  }
+  h5{
+    font-size: 1.5vw !important;
+  }
+  p{
+    font-size: 1.3vw !important;
+  }
+  
+}
+
+@media screen and (max-width : 750px) {
+  h1{
+    font-size: 6.5vw !important ;
+  }
+  h2{
+    font-size: 6.3vw !important;
+  }
+  h3{
+    font-size: 6vw !important;
+  }
+  h4{
+    font-size: 5.5vw !important;
+  }
+  h5{
+    font-size: 5vw !important;
+  }
+  p{
+    font-size: 4vw !important;
+  }
+
+  
+}
