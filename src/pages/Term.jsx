@@ -16,8 +16,8 @@ const Term = () => {
           <p>
             By using it, you are agreeing to these Terms & Conditions (defined
             below). Please read them carefully. The Brand “VSN Solutions”
-            belongs to “ 563, VSN Solutions, Cheema Nagar Extension Jalandhar,
-            Punjab, 144001. <br />
+            belongs to “VSN Solutions 563, VSN Solutions, Cheema Nagar Extension
+            Jalandhar, Punjab, 144001. <br />
             <br />
             “VSN Solutions” owns and operates the website,{" "}
             <a href="sell@vsnsellsolutions.com">
@@ -58,9 +58,8 @@ const Term = () => {
             </h5>
             <p>
               VSN Solutions authorizes you to access, view and use the Site
-              content and software (collectively, the “Fincritic India Private
-              Limited”) solely to the extent necessary for you to use the
-              Services. You may not remove any copyright, trademark or other
+              content and software solely to the extent necessary for you to use
+              the Services. You may not remove any copyright, trademark or other
               proprietary notices that have been placed on the VSN Solutions
               Property. You may not engage in retrieval data or other content
               from the VSN Solutions Property. Except as expressly permitted by
@@ -82,9 +81,9 @@ const Term = () => {
               Except as otherwise indicated, all materials in the Site,
               including, but not limited to text, software, photos, video, the
               VSN Solutions logo, and other VSN Solutions and service marks and
-              the entire contents of the Site are the property of Fincritic
-              India Private Limited and/or its affiliates or licensors,
-              including the Third Parties, and are protected by
+              the entire contents of the Site are the property of VSN Sell
+              Solutions India Private Limited and/or its affiliates or
+              licensors, including the Third Parties, and are protected by
               international/Indian copyright and trademark laws, all rights
               reserved. Any violation of these restrictions may result in a
               copyright, trademark, or other intellectual property right
