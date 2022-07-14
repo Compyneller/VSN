@@ -12,6 +12,7 @@ import Pricing from "./pages/Pricing";
 import WarrantyPolicy from "./pages/WarrantyPolicy";
 import RefundPolicy from "./pages/RefundPolicy";
 import Term from "./pages/Term";
+import Legal from "./pages/Legal";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/warranty" element={<WarrantyPolicy />} />
           <Route path="/refund" element={<RefundPolicy />} />
           <Route path="/tc" element={<Term />} />
+          <Route path="/legal" element={<Legal />} />
         </Routes>
         <Footer />
         <FooterStrip />

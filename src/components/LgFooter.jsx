@@ -92,6 +92,15 @@ const LgFooter = () => {
             Terms & Condition
           </Link>
         </li>
+        <li>
+          <Link
+            className="text-light"
+            to="/legal"
+            onClick={() => window.scroll(0, 0)}
+          >
+            Legal
+          </Link>
+        </li>
       </Col>
     </Row>
   );

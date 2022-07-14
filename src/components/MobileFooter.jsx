@@ -86,6 +86,11 @@ const MobileFooter = () => {
                   Terms & Condition
                 </Link>
               </li>
+              <li>
+                <Link to="/legal" onClick={() => window.scroll(0, 0)}>
+                  Legal
+                </Link>
+              </li>
             </ul>
           </Accordion.Body>
         </Accordion.Item>
