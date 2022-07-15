@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 import { Link } from "react-router-dom";
-import logo from "../assets/oie_YRqpB70c5Sbm.png";
+import logo from "../assets/logo.png";
 
 const NavBarComp = () => {
   return (
@@ -14,9 +14,9 @@ const NavBarComp = () => {
       expand="lg"
       style={{ position: "sticky", top: "0", zIndex: "1000" }}
     >
-      <Container style={{ padding: "1rem " }}>
+      <Container style={{ padding: "0rem " }}>
         <Navbar.Brand href="/">
-          <h3>VSN Solutions</h3>
+          <img height={50} src={logo} alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

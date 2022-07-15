@@ -94,6 +94,21 @@ const MobileFooter = () => {
             </ul>
           </Accordion.Body>
         </Accordion.Item>
+        <Accordion.Item eventKey="4">
+          <Accordion.Header>
+            <h5 style={{ fontWeight: "bold" }}>Socials</h5>
+          </Accordion.Header>
+          <Accordion.Body>
+            <a href="https://twitter.com/SellVsn" target="_blank">
+              <img
+                src="https://img.icons8.com/ios-filled/344/twitter.png"
+                height={50}
+                alt=""
+                style={{ filter: "invert(1)" }}
+              />
+            </a>
+          </Accordion.Body>
+        </Accordion.Item>
       </Accordion>
     </>
   );

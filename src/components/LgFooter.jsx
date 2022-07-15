@@ -102,6 +102,18 @@ const LgFooter = () => {
           </Link>
         </li>
       </Col>
+      <Col sm={12} md={6} lg={2}>
+        <h5 style={{ fontWeight: "bold" }}>Socials</h5>
+
+        <a href="https://twitter.com/SellVsn" target="_blank">
+          <img
+            src="https://img.icons8.com/ios-filled/344/twitter.png"
+            height={50}
+            alt=""
+            style={{ filter: "invert(1)" }}
+          />
+        </a>
+      </Col>
     </Row>
   );
 };
