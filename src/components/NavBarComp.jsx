@@ -33,8 +33,12 @@ const NavBarComp = () => {
             <Link to="/pricing" onClick={() => window.scroll(0, 0)}>
               Pricing
             </Link>
-            <Button variant="dark">Login</Button>
-            <Button variant="dark">Signup</Button>
+            <Link to="/login" onClick={() => window.scroll(0, 0)}>
+              <Button variant="dark">Login</Button>
+            </Link>
+            <Link to="/signup" onClick={() => window.scroll(0, 0)}>
+              <Button variant="dark">Signup</Button>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
