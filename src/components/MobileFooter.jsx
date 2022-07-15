@@ -102,7 +102,6 @@ const MobileFooter = () => {
                 src="https://img.icons8.com/ios-filled/344/twitter.png"
                 height={50}
                 alt=""
-                style={{ filter: "invert(1)" }}
               />
             </a>
           </Accordion.Body>
