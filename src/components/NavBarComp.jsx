@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+import { Button, Row } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -14,7 +14,7 @@ const NavBarComp = () => {
       expand="lg"
       style={{ position: "sticky", top: "0", zIndex: "1000" }}
     >
-      <Container style={{ padding: "0rem " }}>
+      <Container style={{ padding: "0rem 1rem " }}>
         <Navbar.Brand href="/">
           <img height={50} src={logo} alt="" />
         </Navbar.Brand>
@@ -33,12 +33,18 @@ const NavBarComp = () => {
             <Link to="/pricing" onClick={() => window.scroll(0, 0)}>
               Pricing
             </Link>
-            <Link to="/login" onClick={() => window.scroll(0, 0)}>
-              <Button variant="dark">Login</Button>
-            </Link>
-            <Link to="/signup" onClick={() => window.scroll(0, 0)}>
-              <Button variant="dark">Signup</Button>
-            </Link>
+            <Row className="g-3">
+              <div className="col-auto">
+                <Link to="/login" onClick={() => window.scroll(0, 0)}>
+                  <Button variant="dark">Login</Button>
+                </Link>
+              </div>
+              <div className="col-auto">
+                <Link to="/signup" onClick={() => window.scroll(0, 0)}>
+                  <Button variant="dark">Signup</Button>
+                </Link>
+              </div>
+            </Row>
           </Nav>
         </Navbar.Collapse>
       </Container>

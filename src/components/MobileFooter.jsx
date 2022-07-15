@@ -55,8 +55,6 @@ const MobileFooter = () => {
           </Accordion.Header>
           <Accordion.Body>
             <ul>
-              <li>FAQ</li>
-              <li>Contact Us</li>
               <li>
                 <Link to="/warranty" onClick={() => window.scroll(0, 0)}>
                   Warranty Policy
