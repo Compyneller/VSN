@@ -15,6 +15,8 @@ import Term from "./pages/Term";
 import Legal from "./pages/Legal";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
+import "./components/Comp.scss";
+import EnterUserDetail from "./pages/EnterUserDetail";
 
 function App() {
   return (
@@ -33,6 +35,7 @@ function App() {
           <Route path="/legal" element={<Legal />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
+          <Route path="/userdetail" element={<EnterUserDetail />} />
         </Routes>
         <Footer />
         <FooterStrip />

@@ -1,6 +1,7 @@
 import { Container } from "react-bootstrap";
 import BestOffers from "../components/BestOffers";
 import ContactUs from "../components/ContactUs";
+import CustomCarousel2 from "../components/Custom/CustomCarousel2";
 import CustomCarousel from "../components/CustomCarousel";
 import Footer from "../components/Footer";
 import Lakhs from "../components/Lakhs";

@@ -20,7 +20,7 @@ const SellForCash = () => {
         <Row className="g-3 text-center">
           <Col xs={4} sm={3} md={3} lg={2}>
             <Card
-              className="shadow-sm"
+              className="shadow-sm cardHover"
               style={{ width: "100%" }}
               onClick={() => setOpenModal(true)}
             >
@@ -32,7 +32,7 @@ const SellForCash = () => {
           </Col>
           <Col xs={4} sm={3} md={3} lg={2}>
             <Card
-              className="shadow-sm"
+              className="shadow-sm cardHover"
               style={{ width: "100%" }}
               onClick={() => setOpenModal(true)}
             >
@@ -44,7 +44,7 @@ const SellForCash = () => {
           </Col>{" "}
           <Col xs={4} sm={3} md={3} lg={2}>
             <Card
-              className="shadow-sm"
+              className="shadow-sm cardHover"
               style={{ width: "100%" }}
               onClick={() => setOpenModal(true)}
             >
@@ -56,7 +56,7 @@ const SellForCash = () => {
           </Col>
           <Col xs={4} sm={3} md={3} lg={2}>
             <Card
-              className="shadow-sm"
+              className="shadow-sm cardHover"
               style={{ width: "100%" }}
               onClick={() => setOpenModal(true)}
             >
@@ -68,7 +68,7 @@ const SellForCash = () => {
           </Col>
           <Col xs={4} sm={3} md={3} lg={2}>
             <Card
-              className="shadow-sm"
+              className="shadow-sm cardHover"
               style={{ width: "100%" }}
               onClick={() => setOpenModal(true)}
             >
@@ -80,7 +80,7 @@ const SellForCash = () => {
           </Col>
           <Col xs={4} sm={3} md={3} lg={2}>
             <Card
-              className="shadow-sm"
+              className="shadow-sm cardHover"
               style={{ width: "100%" }}
               onClick={() => setOpenModal(true)}
             >
@@ -92,7 +92,7 @@ const SellForCash = () => {
           </Col>
           <Col xs={4} sm={3} md={3} lg={2} onClick={() => setOpenModal(true)}>
             <Card
-              className="shadow-sm"
+              className="shadow-sm cardHover"
               style={{ width: "100%" }}
               onClick={() => setOpenModal(true)}
             >
@@ -104,7 +104,7 @@ const SellForCash = () => {
           </Col>
           <Col xs={4} sm={3} md={3} lg={2} onClick={() => setOpenModal(true)}>
             <Card
-              className="shadow-sm"
+              className="shadow-sm cardHover"
               style={{ width: "100%" }}
               onClick={() => setOpenModal(true)}
             >
@@ -116,7 +116,7 @@ const SellForCash = () => {
           </Col>
           <Col xs={4} sm={3} md={3} lg={2} onClick={() => setOpenModal(true)}>
             <Card
-              className="shadow-sm"
+              className="shadow-sm cardHover"
               style={{ width: "100%" }}
               onClick={() => setOpenModal(true)}
             >

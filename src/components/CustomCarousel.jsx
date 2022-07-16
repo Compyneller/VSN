@@ -2,7 +2,6 @@ import { Button, Card, Container, Row } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import image1 from "../assets/afif-kusuma-D1z3dwROc44-unsplash-removebg-preview.png";
 import image2 from "../assets/syed-hussaini-HlLno-CSbq8-unsplash-removebg-preview.png";
-import image3 from "../assets/portrait-successful-guy-white-shirt-rejoicing-like-winner-with-fan-100-dollar-bills-hand-clenching-fist-aside-dark-gray-removebg-preview.png";
 
 function CustomCarousel() {
   return (

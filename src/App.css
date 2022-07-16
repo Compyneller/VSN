@@ -22,6 +22,10 @@
   color: blue !important;
   
 }
+.logoShadow{
+  
+  filter: drop-shadow(5px 5px 5px #002549);
+}
 .customIcons{
   width: 50px;
   height: 50px;
@@ -117,8 +121,7 @@ background-size: 115px 115px, 115px 115px, 57.5px 57.5px, 57.5px 57.5px;
 
 
 .loginContainer{
-  background-color: #0093E9;
-background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+ background-color: #ffff;
 
   
 
@@ -166,12 +169,13 @@ border-radius: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  
+
 }
 
 .Auth-form {
-  width: 420px;
+  width: 70%;
   box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
   padding-top: 30px;
   padding-bottom: 20px;
@@ -214,6 +218,22 @@ label {
     width: 30px;
     height: 30px;
   }
+  .hidemobile{
+    display: none !important;
+}
+.Auth-form {
+  width: 100%;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 9px );
+  -webkit-backdrop-filter: blur( 9px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
   .aboutUsCardImage{
     width: 10rem;
     height: 10rem;

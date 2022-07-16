@@ -15,7 +15,7 @@ const NavBarComp = () => {
     >
       <Container style={{ padding: "0rem 1rem " }}>
         <Navbar.Brand href="/">
-          <img height={50} src={logo} alt="" />
+          <img className="logoShadow" height={50} src={logo} alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -40,9 +40,9 @@ const NavBarComp = () => {
               Login
             </Link>
 
-            <Link to="/signup" onClick={() => window.scroll(0, 0)}>
+            {/* <Link to="/signup" onClick={() => window.scroll(0, 0)}>
               Signup
-            </Link>
+            </Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
