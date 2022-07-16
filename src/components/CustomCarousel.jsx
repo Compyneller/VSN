@@ -55,31 +55,7 @@ function CustomCarousel() {
           </Container>
         </div>
       </Carousel.Item>
-      <Carousel.Item>
-        <div className="w-100" style={{ background: "#B3E5FC" }}>
-          <Container>
-            <Row>
-              <div className="col-6 d-flex flex-column justify-content-center">
-                <h1 className="text-dark">Spread the Word and Earn !</h1>
-                <h5 className="text-dark">
-                  Refer your Friend to Casify and Earn 100{" "}
-                </h5>
-                <a
-                  className="bg-dark p-2 rounded text-light"
-                  href="mailto:sell@vsnsellsolutions.com"
-                  variant="dark"
-                  style={{ width: "fit-content" }}
-                >
-                  Check Price
-                </a>
-              </div>
-              <div className="col-6 d-flex justify-content-end align-items-end ">
-                <img height={320} src={image3} alt="" />
-              </div>
-            </Row>
-          </Container>
-        </div>
-      </Carousel.Item>
+
       <Carousel.Item>
         <div className="w-100" style={{ background: "#212529" }}>
           <Container>

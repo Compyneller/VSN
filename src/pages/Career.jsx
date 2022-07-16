@@ -18,16 +18,18 @@ const Career = () => {
           <Card.Body>
             <h1>Find Your Dream Job With Us</h1>
             <br />
-            <Button
-              style={{
-                background: "#1A237E",
-                color: "white",
-                border: "none",
-                width: "fit-content",
-              }}
-            >
-              Join us
-            </Button>
+            <a href="mailto:sell@vsnsellsolutions.com">
+              <Button
+                style={{
+                  background: "#1A237E",
+                  color: "white",
+                  border: "none",
+                  width: "fit-content",
+                }}
+              >
+                Join us
+              </Button>
+            </a>
             <br />
             <br />
             <h3>Why Join VSN Solutions?</h3>

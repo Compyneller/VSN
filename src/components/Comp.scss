@@ -1,0 +1,15 @@
+.customNav{
+    a{
+        transition: 250ms ease-out;
+        font-weight: bold;
+        &:hover{
+            transition: 250ms ease-in;
+            background-color: #002549;
+            
+            color: white !important;
+            padding:5px 10px ;
+            border-radius: 5px;
+
+        }
+    }
+}

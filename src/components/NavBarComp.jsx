@@ -1,9 +1,8 @@
 import React from "react";
-import { Button, Row } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-
+import "./Comp.scss";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 
@@ -20,7 +19,10 @@ const NavBarComp = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto d-flex justify-content-between align-items-center  w-50">
+          <Nav
+            className="ms-auto customNav d-flex justify-content-between align-items-center  "
+            style={{ width: "60%" }}
+          >
             <Link to="/" onClick={() => window.scroll(0, 0)}>
               Home
             </Link>
@@ -33,26 +35,14 @@ const NavBarComp = () => {
             <Link to="/pricing" onClick={() => window.scroll(0, 0)}>
               Pricing
             </Link>
-            <Row className="g-2">
-              <div className="col-12 col-lg-auto d-flex">
-                <Link
-                  to="/login"
-                  className="m-auto"
-                  onClick={() => window.scroll(0, 0)}
-                >
-                  <Button variant="dark">Login</Button>
-                </Link>
-              </div>
-              <div className="col-12 col-lg-auto d-flex">
-                <Link
-                  to="/signup"
-                  className="m-auto"
-                  onClick={() => window.scroll(0, 0)}
-                >
-                  <Button variant="dark">Signup</Button>
-                </Link>
-              </div>
-            </Row>
+
+            <Link to="/login" onClick={() => window.scroll(0, 0)}>
+              Login
+            </Link>
+
+            <Link to="/signup" onClick={() => window.scroll(0, 0)}>
+              Signup
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
