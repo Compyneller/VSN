@@ -16,7 +16,11 @@ const AdditionalServices = () => {
           lg={4}
           className="d-flex align-items-center justify-content-center "
         >
-          <a href="mailto:sell@vsnsellsolutions.com" className="w-100">
+          <a
+            style={{ height: "100%" }}
+            href="mailto:sell@vsnsellsolutions.com"
+            className="w-100"
+          >
             <Card
               className="shadow cardHover"
               data-aos="fade-up-right"
@@ -44,7 +48,11 @@ const AdditionalServices = () => {
           lg={4}
           className="d-flex align-items-center justify-content-center "
         >
-          <a href="mailto:sell@vsnsellsolutions.com" className="w-100">
+          <a
+            style={{ height: "100%" }}
+            href="mailto:sell@vsnsellsolutions.com"
+            className="w-100"
+          >
             <Card
               className="shadow cardHover"
               data-aos="fade-down-right"
@@ -72,7 +80,11 @@ const AdditionalServices = () => {
           lg={4}
           className="d-flex align-items-center justify-content-center "
         >
-          <a href="mailto:sell@vsnsellsolutions.com" className="w-100">
+          <a
+            style={{ height: "100%" }}
+            href="mailto:sell@vsnsellsolutions.com"
+            className="w-100"
+          >
             <Card
               className="shadow cardHover"
               data-aos="fade-up-left"
@@ -100,7 +112,11 @@ const AdditionalServices = () => {
           lg={4}
           className="d-flex align-items-center justify-content-center "
         >
-          <a href="mailto:sell@vsnsellsolutions.com" className="w-100">
+          <a
+            style={{ height: "100%" }}
+            href="mailto:sell@vsnsellsolutions.com"
+            className="w-100"
+          >
             <Card
               className="shadow cardHover"
               data-aos="fade-down-right"
@@ -129,36 +145,11 @@ const AdditionalServices = () => {
           lg={4}
           className="d-flex align-items-center justify-content-center "
         >
-          <a href="mailto:sell@vsnsellsolutions.com" className="w-100">
-            <Card
-              className="shadow cardHover"
-              data-aos="zoom-in-up"
-              // onClick={() => setAddtionalModal(true)}
-            >
-              <div className="row g-0">
-                <div className="col-12 col-lg-6 d-flex align-items-center justify-content-center">
-                  <img
-                    className="w-100 rounded"
-                    src="https://images.unsplash.com/photo-1614791189661-93412a35af54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-                    alt=""
-                  />
-                </div>
-                <div className="col-12 col-lg-6 d-flex text-center  align-items-center justify-content-center">
-                  <h5>Visit Store </h5>
-                </div>
-              </div>
-            </Card>
-          </a>
-        </Col>
-
-        <Col
-          xs={4}
-          sm={3}
-          md={3}
-          lg={4}
-          className="d-flex align-items-center justify-content-center "
-        >
-          <a href="mailto:sell@vsnsellsolutions.com" className="w-100">
+          <a
+            style={{ height: "100%" }}
+            href="mailto:sell@vsnsellsolutions.com"
+            className="w-100"
+          >
             <Card
               className="shadow cardHover"
               data-aos="fade-down-left"
@@ -186,7 +177,11 @@ const AdditionalServices = () => {
           lg={4}
           className="d-flex align-items-center justify-content-center "
         >
-          <a href="mailto:sell@vsnsellsolutions.com" className="w-100">
+          <a
+            style={{ height: "100%" }}
+            href="mailto:sell@vsnsellsolutions.com"
+            className="w-100"
+          >
             <Card
               className="shadow cardHover"
               data-aos="zoom-in-right"

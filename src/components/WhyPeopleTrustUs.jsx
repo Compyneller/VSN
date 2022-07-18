@@ -22,7 +22,7 @@ const WhyPeopleTrustUs = () => {
               }}
             >
               <h1 style={{ color: "#3399FF", fontWeight: "bold" }}>
-                What Makes Us Stand Out
+                What Makes Us Stand Out.
               </h1>
               <br />
               <Row className="g-2">
@@ -35,9 +35,9 @@ const WhyPeopleTrustUs = () => {
                   />
                 </div>
                 <div className="col-11">
-                  <p className="WhyHeading">One Place All Solutions</p>
+                  <p className="WhyHeading">One Place All Solutions.</p>
                   <p className=" whyText">
-                    Sell, buy, repair or accessorize your smartphone
+                    Sell, buy, repair or accessorize your smartphone.
                   </p>
                 </div>
                 <div className="col-1">
@@ -49,9 +49,9 @@ const WhyPeopleTrustUs = () => {
                   />
                 </div>
                 <div className="col-11">
-                  <p className="WhyHeading">Satisfied Prices</p>
+                  <p className="WhyHeading">Satisfied Prices.</p>
                   <p className=" whyText">
-                    Sell, buy, repair or accessorize your smartphone
+                    Sell, buy, repair or accessorize your smartphone.
                   </p>
                 </div>
                 <div className="col-1">
@@ -63,7 +63,7 @@ const WhyPeopleTrustUs = () => {
                   />
                 </div>
                 <div className="col-11">
-                  <p className="WhyHeading">Qualified Professionals</p>
+                  <p className="WhyHeading">Qualified Professionals.</p>
                   <p className=" whyText">
                     Trained experts who are always ready for you.
                   </p>
@@ -77,7 +77,7 @@ const WhyPeopleTrustUs = () => {
                   />
                 </div>
                 <div className="col-11">
-                  <p className="WhyHeading">Easy & Trustable</p>
+                  <p className="WhyHeading">Easy & Trustable.</p>
                   <p className=" whyText">
                     Get a smooth experience at your doorstep.
                   </p>
@@ -91,7 +91,7 @@ const WhyPeopleTrustUs = () => {
                   />
                 </div>
                 <div className="col-11">
-                  <p className="WhyHeading">Safety Is Priority</p>
+                  <p className="WhyHeading">Safety Is Priority.</p>
                   <p className=" whyText">
                     Always the top-class security for your device & payments.
                   </p>

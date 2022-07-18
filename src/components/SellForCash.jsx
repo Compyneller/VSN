@@ -17,7 +17,11 @@ const SellForCash = () => {
             lg={4}
             className="d-flex align-items-center justify-content-center "
           >
-            <a href="mailto:sell@vsnsellsolutions.com" className="w-100">
+            <a
+              style={{ height: "100%" }}
+              href="mailto:sell@vsnsellsolutions.com"
+              className="w-100"
+            >
               <Card
                 className="shadow cardHover"
                 // onClick={() => setOpenModal(true)}
@@ -45,7 +49,11 @@ const SellForCash = () => {
             lg={4}
             className="d-flex align-items-center justify-content-center "
           >
-            <a href="mailto:sell@vsnsellsolutions.com" className="w-100">
+            <a
+              style={{ height: "100%" }}
+              href="mailto:sell@vsnsellsolutions.com"
+              className="w-100"
+            >
               <Card
                 className="shadow cardHover"
                 data-aos="fade-down"
@@ -73,7 +81,11 @@ const SellForCash = () => {
             lg={4}
             className="d-flex align-items-center justify-content-center "
           >
-            <a href="mailto:sell@vsnsellsolutions.com" className="w-100">
+            <a
+              style={{ height: "100%" }}
+              href="mailto:sell@vsnsellsolutions.com"
+              className="w-100"
+            >
               <Card
                 className="shadow cardHover"
                 data-aos="fade-left"
@@ -101,7 +113,11 @@ const SellForCash = () => {
             lg={4}
             className="d-flex align-items-center justify-content-center "
           >
-            <a href="mailto:sell@vsnsellsolutions.com" className="w-100">
+            <a
+              style={{ height: "100%" }}
+              href="mailto:sell@vsnsellsolutions.com"
+              className="w-100"
+            >
               <Card
                 className="shadow cardHover"
                 data-aos="fade-right"
@@ -129,7 +145,11 @@ const SellForCash = () => {
             lg={4}
             className="d-flex align-items-center justify-content-center "
           >
-            <a href="mailto:sell@vsnsellsolutions.com" className="w-100">
+            <a
+              style={{ height: "100%" }}
+              href="mailto:sell@vsnsellsolutions.com"
+              className="w-100"
+            >
               <Card
                 className="shadow cardHover"
                 data-aos="flip-left"
@@ -157,7 +177,11 @@ const SellForCash = () => {
             lg={4}
             className="d-flex align-items-center justify-content-center "
           >
-            <a href="mailto:sell@vsnsellsolutions.com" className="w-100">
+            <a
+              style={{ height: "100%" }}
+              href="mailto:sell@vsnsellsolutions.com"
+              className="w-100"
+            >
               <Card
                 className="shadow cardHover"
                 data-aos="fade-up-left"
@@ -185,7 +209,11 @@ const SellForCash = () => {
             lg={4}
             className="d-flex align-items-center justify-content-center "
           >
-            <a href="mailto:sell@vsnsellsolutions.com" className="w-100">
+            <a
+              style={{ height: "100%" }}
+              href="mailto:sell@vsnsellsolutions.com"
+              className="w-100"
+            >
               <Card
                 className="shadow cardHover"
                 data-aos="fade-right"
@@ -213,7 +241,11 @@ const SellForCash = () => {
             lg={4}
             className="d-flex align-items-center justify-content-center "
           >
-            <a href="mailto:sell@vsnsellsolutions.com" className="w-100">
+            <a
+              style={{ height: "100%" }}
+              href="mailto:sell@vsnsellsolutions.com"
+              className="w-100"
+            >
               <Card
                 className="shadow cardHover"
                 data-aos="fade-down"
@@ -241,7 +273,11 @@ const SellForCash = () => {
             lg={4}
             className="d-flex align-items-center justify-content-center "
           >
-            <a href="mailto:sell@vsnsellsolutions.com" className="w-100">
+            <a
+              style={{ height: "100%" }}
+              href="mailto:sell@vsnsellsolutions.com"
+              className="w-100"
+            >
               <Card
                 className="shadow cardHover"
                 data-aos="fade-left"

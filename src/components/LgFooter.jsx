@@ -10,11 +10,21 @@ const LgFooter = () => {
     >
       <Col sm={12} md={6} lg={2}>
         <h5 style={{ fontWeight: "bold" }}>Services</h5>
-        <li>Sell Phone</li>
-        <li>Buy Phone</li>
-        <li>Recycle Phone</li>
-        <li>Find Phone</li>
-        <li>Collab With Us</li>
+        <li className="text-light">
+          <a href="mailto:sell@vsnsellsolutions.com">Sell Phone</a>
+        </li>
+        <li className="text-light">
+          <a href="mailto:sell@vsnsellsolutions.com">Buy Phone</a>
+        </li>
+        <li className="text-light">
+          <a href="mailto:sell@vsnsellsolutions.com">Recycle Phone</a>
+        </li>
+        <li className="text-light">
+          <a href="mailto:sell@vsnsellsolutions.com">Find Phone</a>
+        </li>
+        <li className="text-light">
+          <a href="mailto:sell@vsnsellsolutions.com">Collab with us</a>
+        </li>
       </Col>
       <Col sm={12} md={6} lg={2}>
         <h5 style={{ fontWeight: "bold" }}>Company</h5>
@@ -50,7 +60,9 @@ const LgFooter = () => {
       <Col sm={12} md={6} lg={2}>
         <h5 style={{ fontWeight: "bold" }}>Sell Devices</h5>
 
-        <li>Mobile Phone</li>
+        <li className="text-light">
+          <a href="mailto:sell@vsnsellsolutions.com">Mobile Phone</a>
+        </li>
       </Col>
       <Col sm={12} md={6} lg={2}>
         <h5 style={{ fontWeight: "bold" }}>Help & Support</h5>
@@ -61,7 +73,7 @@ const LgFooter = () => {
             href="https://medium.com/@sell_74218/vsn-solutions-how-it-works-805f97e3d97d"
             target="_blank"
           >
-            How Vsnsolutions works
+            How Vsn Solutions works
           </a>
         </li>
         <li>

@@ -102,7 +102,11 @@ const SignUp = () => {
                     </button>
                   </div>
                   <p className="forgot-password text-right mt-2">
-                    <a href="/login" style={{ fontWeight: "bold" }}>
+                    <a
+                      href="/login"
+                      className="hereLink"
+                      style={{ fontWeight: "bold" }}
+                    >
                       Login
                     </a>
                   </p>

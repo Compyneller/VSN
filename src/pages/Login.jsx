@@ -44,7 +44,16 @@ const Login = () => {
                     </button>
                   </div>
                   <p className="forgot-password text-right mt-2">
-                    New User Sign Up <a href="/signup">here</a>
+                    New User Sign Up{" "}
+                    <a
+                      href="/signup"
+                      className="hereLink"
+                      style={{
+                        fontWeight: "bold",
+                      }}
+                    >
+                      here
+                    </a>
                   </p>
                 </div>
               </form>

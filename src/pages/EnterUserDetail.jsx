@@ -94,7 +94,9 @@ const EnterUserDetail = () => {
                     </button>
                   </div>
                   <p className="forgot-password text-right mt-2">
-                    <a href="/login">Login</a>
+                    <a href="/login" className="hereLink">
+                      Login
+                    </a>
                   </p>
                 </div>
               </form>

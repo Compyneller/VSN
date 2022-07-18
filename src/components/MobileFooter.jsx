@@ -12,11 +12,21 @@ const MobileFooter = () => {
           </Accordion.Header>
           <Accordion.Body>
             <ul>
-              <li>Sell Phone</li>
-              <li>Buy Phone</li>
-              <li>Recycle Phone</li>
-              <li>Find Phone</li>
-              <li>Collab With Us</li>
+              <li>
+                <a href="mailto:sell@vsnsellsolutions.com">Sell Phone</a>
+              </li>
+              <li>
+                <a href="mailto:sell@vsnsellsolutions.com">Buy Phone</a>
+              </li>
+              <li>
+                <a href="mailto:sell@vsnsellsolutions.com">Recycle Phone</a>
+              </li>
+              <li>
+                <a href="mailto:sell@vsnsellsolutions.com">Find Phone</a>
+              </li>
+              <li>
+                <a href="mailto:sell@vsnsellsolutions.com">Collab with us</a>
+              </li>
             </ul>
           </Accordion.Body>
         </Accordion.Item>
@@ -56,7 +66,9 @@ const MobileFooter = () => {
           </Accordion.Header>
           <Accordion.Body>
             <ul>
-              <li>Mobile Phone</li>
+              <li>
+                <a href="mailto:sell@vsnsellsolutions.com">Mobile Phone</a>
+              </li>
             </ul>
           </Accordion.Body>
         </Accordion.Item>
@@ -71,7 +83,7 @@ const MobileFooter = () => {
                   href="https://medium.com/@sell_74218/vsn-solutions-how-it-works-805f97e3d97d"
                   target="_blank"
                 >
-                  How Vsnsolutions works
+                  How Vsn Solutions works
                 </a>
               </li>
               <li>
