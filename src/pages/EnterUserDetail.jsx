@@ -19,6 +19,7 @@ const EnterUserDetail = () => {
                     <input
                       type="text"
                       className="form-control mt-1"
+                      name="name"
                       placeholder="Enter Name"
                     />
                   </div>
@@ -27,6 +28,7 @@ const EnterUserDetail = () => {
                     <input
                       type="mail"
                       className="form-control mt-1"
+                      name="email"
                       placeholder="Enter Email"
                     />
                   </div>
@@ -35,6 +37,7 @@ const EnterUserDetail = () => {
                     <input
                       type="password"
                       className="form-control mt-1"
+                      name="password"
                       placeholder="Enter password"
                     />
                   </div>
@@ -43,6 +46,7 @@ const EnterUserDetail = () => {
                     <input
                       type="password"
                       className="form-control mt-1"
+                      name="confirm"
                       placeholder="Confirm password"
                     />
                   </div>

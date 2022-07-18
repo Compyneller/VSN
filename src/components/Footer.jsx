@@ -5,7 +5,11 @@ import MobileFooter from "./MobileFooter";
 
 const Footer = () => {
   return (
-    <div style={{ background: "#303F9F" }}>
+    <div
+      style={{
+        backgroundImage: "linear-gradient(to bottom right , #007FFE, #005FC0",
+      }}
+    >
       <Container>
         {window.innerWidth <= 750 ? <MobileFooter /> : <LgFooter />}
       </Container>

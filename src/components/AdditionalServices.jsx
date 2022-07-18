@@ -18,6 +18,7 @@ const AdditionalServices = () => {
         >
           <Card
             className="shadow cardHover"
+            data-aos="fade-up-right"
             onClick={() => setAddtionalModal(true)}
           >
             <div className="row g-0">
@@ -43,6 +44,7 @@ const AdditionalServices = () => {
         >
           <Card
             className="shadow cardHover"
+            data-aos="fade-down-right"
             onClick={() => setAddtionalModal(true)}
           >
             <div className="row g-0">
@@ -68,6 +70,7 @@ const AdditionalServices = () => {
         >
           <Card
             className="shadow cardHover"
+            data-aos="fade-up-left"
             onClick={() => setAddtionalModal(true)}
           >
             <div className="row g-0">
@@ -93,6 +96,7 @@ const AdditionalServices = () => {
         >
           <Card
             className="shadow cardHover"
+            data-aos="fade-down-right"
             onClick={() => setAddtionalModal(true)}
           >
             <div className="row g-0">
@@ -119,6 +123,7 @@ const AdditionalServices = () => {
         >
           <Card
             className="shadow cardHover"
+            data-aos="zoom-in-up"
             onClick={() => setAddtionalModal(true)}
           >
             <div className="row g-0">
@@ -145,6 +150,7 @@ const AdditionalServices = () => {
         >
           <Card
             className="shadow cardHover"
+            data-aos="fade-down-left"
             onClick={() => setAddtionalModal(true)}
           >
             <div className="row g-0">
@@ -170,6 +176,7 @@ const AdditionalServices = () => {
         >
           <Card
             className="shadow cardHover"
+            data-aos="zoom-in-right"
             onClick={() => setAddtionalModal(true)}
           >
             <div className="row g-0">

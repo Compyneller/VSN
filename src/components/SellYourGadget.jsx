@@ -4,20 +4,27 @@ import visit2 from "../assets/visit2.gif";
 import rupee from "../assets/rupee.gif";
 const SellYourGadget = () => {
   return (
-    <div style={{ background: "#FAFAFA", padding: "3rem 0", width: "100%" }}>
-      <Container className="text-center">
+    <div style={{ background: "#091726", padding: "3rem 0", width: "100%" }}>
+      <Container className="text-center text-light">
         <h2>3 Steps to Sell</h2>
-        <p className="text-secondary">
+        <h5 style={{ color: "#AAD3FC" }}>
           Sell your gadgets conveniently from your home or work place for free.
-        </p>
+        </h5>
         <br />
         <br />
         <Row className="g-3 text-center">
           <Col sm={12} md={6} lg={4}>
-            <Card className="shadow" style={{ background: "#FAFAFA" }}>
+            <Card
+              className="shadow"
+              data-aos="fade-right"
+              style={{
+                backgroundImage:
+                  "linear-gradient(to bottom right , #007FFE, #005FC0",
+              }}
+            >
               <Card.Body>
                 <Row>
-                  <div className="col-3 p-0 d-flex justify-content-start align-items-center ">
+                  <div className="col-3 p-0 d-flex ">
                     <img
                       style={{ mixBlendMode: "darken" }}
                       src={tag}
@@ -25,23 +32,30 @@ const SellYourGadget = () => {
                       alt=""
                     />
                   </div>
-                  <div className="col-9 p-0 d-flex justify-content-start align-items-center">
-                    <h1>Get Suitable Price</h1>
+                  <div className="col-9 p-0 d-flex">
+                    <h3 className="text-center m-auto">Get Suitable Price</h3>
                   </div>
                 </Row>
                 <br />
-                <p className="text-secondary">
+                <h5 style={{ color: "#AAD3FC" }}>
                   Tell us about your device name, specifications & its condition
                   and our AI tech will give you the best price.{" "}
-                </p>
+                </h5>
               </Card.Body>
             </Card>
           </Col>
           <Col sm={12} md={6} lg={4}>
-            <Card className="shadow" style={{ background: "#FAFAFA" }}>
+            <Card
+              className="shadow"
+              data-aos="zoom-out-up"
+              style={{
+                backgroundImage:
+                  "linear-gradient(to bottom right , #007FFE, #005FC0",
+              }}
+            >
               <Card.Body>
                 <Row>
-                  <div className="col-3 p-0 d-flex justify-content-start align-items-center ">
+                  <div className="col-3 p-0 d-flex ">
                     <img
                       style={{ mixBlendMode: "darken" }}
                       src={visit2}
@@ -49,23 +63,30 @@ const SellYourGadget = () => {
                       alt=""
                     />
                   </div>
-                  <div className="col-9 p-0 d-flex justify-content-start align-items-center">
-                    <h1>Book free Pickup </h1>
+                  <div className="col-9 p-0 d-flex">
+                    <h3 className="text-center m-auto">Book free Pickup </h3>
                   </div>
                 </Row>
                 <br />
-                <p className="text-secondary">
+                <h5 style={{ color: "#AAD3FC" }}>
                   Schedule a free pickup from your home or work and select a
                   time slot at your convenience.
-                </p>
+                </h5>
               </Card.Body>
             </Card>
           </Col>
           <Col sm={12} md={6} lg={4}>
-            <Card className="shadow" style={{ background: "#FAFAFA" }}>
+            <Card
+              className="shadow"
+              data-aos="fade-left"
+              style={{
+                backgroundImage:
+                  "linear-gradient(to bottom right , #007FFE, #005FC0",
+              }}
+            >
               <Card.Body>
                 <Row>
-                  <div className="col-3 p-0 d-flex justify-content-start align-items-center ">
+                  <div className="col-3 p-0 d-flex ">
                     <img
                       style={{ mixBlendMode: "darken" }}
                       src={rupee}
@@ -73,15 +94,17 @@ const SellYourGadget = () => {
                       alt=""
                     />
                   </div>
-                  <div className="col-9 p-0 d-flex justify-content-start align-items-center">
-                    <h1>In Hand Instant Payment</h1>
+                  <div className="col-9 p-0 d-flex">
+                    <h3 className="text-center m-auto">
+                      In Hand Instant Payment
+                    </h3>
                   </div>
                 </Row>
                 <br />
-                <p className="text-secondary">
+                <h5 style={{ color: "#AAD3FC" }}>
                   Get instant payment as soon as our executive picks up your
                   device.
-                </p>
+                </h5>
               </Card.Body>
             </Card>
           </Col>

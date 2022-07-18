@@ -9,20 +9,20 @@ import MobileCarousel from "../components/MobileCarousel";
 import NavBarComp from "../components/NavBarComp";
 import SellForCash from "../components/SellForCash";
 import SellYourGadget from "../components/SellYourGadget";
+import TopHeader from "../components/TopHeader/TopHeader";
 import WhyPeopleTrustUs from "../components/WhyPeopleTrustUs";
 
 const Home = () => {
   return (
     <>
-      {window.innerWidth <= 750 ? "" : <CustomCarousel />}
+      {window.innerWidth <= 750 ? "" : <TopHeader />}
       <SellForCash />
       <SellYourGadget />
       <WhyPeopleTrustUs />
       {/* <BestOffers /> */}
       <Lakhs />
-      <Container>
-        <ContactUs />
-      </Container>
+
+      <ContactUs />
     </>
   );
 };

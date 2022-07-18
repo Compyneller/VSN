@@ -15,13 +15,13 @@ const NavBarComp = () => {
     >
       <Container style={{ padding: "0rem 1rem " }}>
         <Navbar.Brand href="/">
-          <img className="logoShadow" height={50} src={logo} alt="" />
+          <img height={50} src={logo} alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav
             className="ms-auto customNav d-flex justify-content-between align-items-center  "
-            style={{ width: "60%" }}
+            style={{ width: "40%" }}
           >
             <Link to="/" onClick={() => window.scroll(0, 0)}>
               Home
@@ -37,7 +37,7 @@ const NavBarComp = () => {
             </Link>
 
             <Link to="/login" onClick={() => window.scroll(0, 0)}>
-              Login
+              Login / Sign Up
             </Link>
 
             {/* <Link to="/signup" onClick={() => window.scroll(0, 0)}>

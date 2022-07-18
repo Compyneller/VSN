@@ -7,7 +7,7 @@ import Modal from "../Modal/Modal";
 const SellForCash = () => {
   const [openModal, setOpenModal] = useState(false);
   return (
-    <>
+    <div style={{ width: "100%", background: "#091726" }}>
       <Container>
         <Row className="g-lg-4 g-2  text-center">
           <Col
@@ -20,6 +20,7 @@ const SellForCash = () => {
             <Card
               className="shadow cardHover"
               onClick={() => setOpenModal(true)}
+              data-aos="fade-right"
             >
               <div className="row g-0 ">
                 <div className=" col-12 col-lg-6 d-flex align-items-center justify-content-center">
@@ -44,6 +45,7 @@ const SellForCash = () => {
           >
             <Card
               className="shadow cardHover"
+              data-aos="fade-down"
               onClick={() => setOpenModal(true)}
             >
               <div className="row g-0">
@@ -69,6 +71,7 @@ const SellForCash = () => {
           >
             <Card
               className="shadow cardHover"
+              data-aos="fade-left"
               onClick={() => setOpenModal(true)}
             >
               <div className="row g-0">
@@ -94,6 +97,7 @@ const SellForCash = () => {
           >
             <Card
               className="shadow cardHover"
+              data-aos="fade-right"
               onClick={() => setOpenModal(true)}
             >
               <div className="row g-0">
@@ -119,6 +123,7 @@ const SellForCash = () => {
           >
             <Card
               className="shadow cardHover"
+              data-aos="flip-left"
               onClick={() => setOpenModal(true)}
             >
               <div className="row g-0">
@@ -144,6 +149,7 @@ const SellForCash = () => {
           >
             <Card
               className="shadow cardHover"
+              data-aos="fade-up-left"
               onClick={() => setOpenModal(true)}
             >
               <div className="row g-0">
@@ -169,6 +175,7 @@ const SellForCash = () => {
           >
             <Card
               className="shadow cardHover"
+              data-aos="fade-right"
               onClick={() => setOpenModal(true)}
             >
               <div className="row g-0">
@@ -194,6 +201,7 @@ const SellForCash = () => {
           >
             <Card
               className="shadow cardHover"
+              data-aos="fade-down"
               onClick={() => setOpenModal(true)}
             >
               <div className="row g-0">
@@ -219,6 +227,7 @@ const SellForCash = () => {
           >
             <Card
               className="shadow cardHover"
+              data-aos="fade-left"
               onClick={() => setOpenModal(true)}
             >
               <div className="row g-0">
@@ -242,7 +251,7 @@ const SellForCash = () => {
         <AdditionalServices openModal={openModal} setOpenModal={setOpenModal} />
       </Container>
       {openModal && <Modal closeModel={setOpenModal} />}
-    </>
+    </div>
   );
 };
 

@@ -14,8 +14,9 @@
   padding: 3rem 0;
 }
 .contactUsCard{
-  border: 3px solid #1A237E !important;
+  border: 3px solid #1E4976 !important;
   border-radius: 10px !important;
+  background : "#132F4C"
 }
 
 .containerPrivacy a{
@@ -98,6 +99,7 @@
 }
 .whyText{
   font-size: 16px !important;
+  color: #B3BCC5 !important;
 }
 .whyTrustBg{
   position: absolute;

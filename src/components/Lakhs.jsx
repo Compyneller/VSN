@@ -3,46 +3,51 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 
 const Lakhs = () => {
   return (
-    <Container>
-      <Row className="g-3 text-center">
-        <div className="col-6">
-          <img
-            style={{ objectFit: "cover" }}
-            src="https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1168&q=80"
-            className="w-100"
-            height={350}
-            alt=""
-          />
-        </div>
-        <div className="col-6">
-          <img
-            style={{ objectFit: "cover" }}
-            src="https://images.unsplash.com/photo-1567581935884-3349723552ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
-            alt=""
-            className="w-100"
-            height={350}
-          />
-        </div>
-        <div className="col-6">
-          <img
-            style={{ objectFit: "cover" }}
-            src="https://images.unsplash.com/photo-1628815113969-0487917fc6a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
-            className="w-100"
-            height={350}
-            alt=""
-          />
-        </div>
-        <div className="col-6">
-          <img
-            style={{ objectFit: "cover" }}
-            src="https://images.unsplash.com/photo-1566793474285-2decf0fc182a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-            height={350}
-            className="w-100"
-            alt=""
-          />
-        </div>
+    <div style={{ background: "#0A1929" }}>
+      <Container>
+        <Row className="g-3 text-center">
+          <div className="col-6">
+            <img
+              data-aos="zoom-in-right"
+              style={{ objectFit: "cover" }}
+              src="https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1168&q=80"
+              className="w-100"
+              height={350}
+              alt=""
+            />
+          </div>
+          <div className="col-6">
+            <img
+              data-aos="zoom-in-left"
+              style={{ objectFit: "cover" }}
+              src="https://images.unsplash.com/photo-1567581935884-3349723552ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+              alt=""
+              className="w-100"
+              height={350}
+            />
+          </div>
+          <div className="col-6">
+            <img
+              data-aos="zoom-in-right"
+              style={{ objectFit: "cover" }}
+              src="https://images.unsplash.com/photo-1628815113969-0487917fc6a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+              className="w-100"
+              height={350}
+              alt=""
+            />
+          </div>
+          <div className="col-6">
+            <img
+              data-aos="zoom-in-left"
+              style={{ objectFit: "cover" }}
+              src="https://images.unsplash.com/photo-1566793474285-2decf0fc182a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+              height={350}
+              className="w-100"
+              alt=""
+            />
+          </div>
 
-        {/* <Col
+          {/* <Col
           sm={12}
           lg={6}
           className="d-flex flex-column justify-content-center align-items-center"
@@ -59,13 +64,13 @@ const Lakhs = () => {
           className="w-100"
           alt=""
           />
-            </div>
-            <div className="col-auto">
-            <img
-            src="https://s3n.cashify.in/imageLibrary/nokia.png"
+          </div>
+          <div className="col-auto">
+          <img
+          src="https://s3n.cashify.in/imageLibrary/nokia.png"
             className="w-100"
             alt=""
-              />
+            />
             </div>
             <div className="col-auto">
             <img
@@ -96,12 +101,12 @@ const Lakhs = () => {
             />
             </div>
             <div className="col-auto">
-              <img
-              src="https://s3n.cashify.in/imageLibrary/oneplus.png"
-              className="w-100"
-              alt=""
-              />
-              </div>
+            <img
+            src="https://s3n.cashify.in/imageLibrary/oneplus.png"
+            className="w-100"
+            alt=""
+            />
+            </div>
               <div className="col-auto">
               <img
               src="https://s3n.cashify.in/imageLibrary/dell.png"
@@ -146,8 +151,9 @@ const Lakhs = () => {
                 </div>
                 </Row>
               </Col> */}
-      </Row>
-    </Container>
+        </Row>
+      </Container>
+    </div>
   );
 };
 
