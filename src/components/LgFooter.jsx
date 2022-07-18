@@ -10,20 +10,30 @@ const LgFooter = () => {
     >
       <Col sm={12} md={6} lg={2}>
         <h5 style={{ fontWeight: "bold" }}>Services</h5>
-        <li className="text-light">
-          <a href="mailto:sell@vsnsellsolutions.com">Sell Phone</a>
+        <li>
+          <a className="text-light" href="mailto:sell@vsnsellsolutions.com">
+            Sell Phone
+          </a>
         </li>
-        <li className="text-light">
-          <a href="mailto:sell@vsnsellsolutions.com">Buy Phone</a>
+        <li>
+          <a className="text-light" href="mailto:sell@vsnsellsolutions.com">
+            Buy Phone
+          </a>
         </li>
-        <li className="text-light">
-          <a href="mailto:sell@vsnsellsolutions.com">Recycle Phone</a>
+        <li>
+          <a className="text-light" href="mailto:sell@vsnsellsolutions.com">
+            Recycle Phone
+          </a>
         </li>
-        <li className="text-light">
-          <a href="mailto:sell@vsnsellsolutions.com">Find Phone</a>
+        <li>
+          <a className="text-light" href="mailto:sell@vsnsellsolutions.com">
+            Find Phone
+          </a>
         </li>
-        <li className="text-light">
-          <a href="mailto:sell@vsnsellsolutions.com">Collab with us</a>
+        <li>
+          <a className="text-light" href="mailto:sell@vsnsellsolutions.com">
+            Collab with us
+          </a>
         </li>
       </Col>
       <Col sm={12} md={6} lg={2}>
@@ -60,8 +70,10 @@ const LgFooter = () => {
       <Col sm={12} md={6} lg={2}>
         <h5 style={{ fontWeight: "bold" }}>Sell Devices</h5>
 
-        <li className="text-light">
-          <a href="mailto:sell@vsnsellsolutions.com">Mobile Phone</a>
+        <li>
+          <a className="text-light" href="mailto:sell@vsnsellsolutions.com">
+            Mobile Phone
+          </a>
         </li>
       </Col>
       <Col sm={12} md={6} lg={2}>
