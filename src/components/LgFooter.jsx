@@ -107,15 +107,38 @@ const LgFooter = () => {
       </Col>
       <Col sm={12} md={6} lg={2}>
         <h5 style={{ fontWeight: "bold" }}>Socials</h5>
-
-        <a href="https://twitter.com/SellVsn" target="_blank">
-          <img
-            src="https://img.icons8.com/ios-filled/344/twitter.png"
-            height={50}
-            alt=""
-            style={{ filter: "invert(1)" }}
-          />
-        </a>
+        <div className="row g-3">
+          <div className="col-4">
+            <a href="https://twitter.com/SellVsn" target="_blank">
+              <img
+                src="https://img.icons8.com/ios-filled/344/twitter.png"
+                height={50}
+                alt=""
+                style={{ filter: "invert(1)" }}
+              />
+            </a>
+          </div>
+          <div className="col-4">
+            <a href="https://medium.com/@sell_74218" target="_blank">
+              <img
+                src="https://img.icons8.com/ios-filled/344/medium-logo.png"
+                height={50}
+                alt=""
+                style={{ filter: "invert(1)" }}
+              />
+            </a>
+          </div>
+          <div className="col-4">
+            <a href="https://www.instagram.com/vsnsell/" target="_blank">
+              <img
+                src="https://img.icons8.com/ios-glyphs/344/instagram-new.png"
+                height={50}
+                alt=""
+                style={{ filter: "invert(1)" }}
+              />
+            </a>
+          </div>
+        </div>
       </Col>
     </Row>
   );

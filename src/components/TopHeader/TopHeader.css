@@ -43,4 +43,9 @@ img {
     /* Safari seems to support, but seems deprecated and does the same thing as the others. */
     image-rendering: -webkit-optimize-contrast;
   }
-  
+  .CarouselHeading{
+    font-size: 5vw !important;
+  }
+  .carouselSubHeading{
+    font-size: 2vw !important;
+  }

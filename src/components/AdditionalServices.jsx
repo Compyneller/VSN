@@ -7,7 +7,7 @@ const AdditionalServices = () => {
   const [addtionalModal, setAddtionalModal] = useState(false);
   return (
     <>
-      <h3>Additional Services</h3>
+      <h3 className="text-light">Additional Services</h3>
       <Row className=" g-lg-4 g-2 text-center">
         <Col
           xs={4}

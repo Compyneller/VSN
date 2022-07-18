@@ -26,9 +26,9 @@ const SellYourGadget = () => {
                 <Row>
                   <div className="col-3 p-0 d-flex ">
                     <img
-                      style={{ mixBlendMode: "darken" }}
-                      src={tag}
-                      className="w-100  "
+                      // style={{ mixBlendMode: "darken" }}
+                      src="https://img.icons8.com/fluency/344/tag.png"
+                      className="w-100  m-auto "
                       alt=""
                     />
                   </div>
@@ -57,8 +57,7 @@ const SellYourGadget = () => {
                 <Row>
                   <div className="col-3 p-0 d-flex ">
                     <img
-                      style={{ mixBlendMode: "darken" }}
-                      src={visit2}
+                      src="https://img.icons8.com/clouds/344/user-location.png"
                       className="w-100  "
                       alt=""
                     />
@@ -88,8 +87,7 @@ const SellYourGadget = () => {
                 <Row>
                   <div className="col-3 p-0 d-flex ">
                     <img
-                      style={{ mixBlendMode: "darken" }}
-                      src={rupee}
+                      src="https://img.icons8.com/color/344/rupee--v1.png"
                       className="w-100  "
                       alt=""
                     />

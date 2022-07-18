@@ -92,18 +92,40 @@ const MobileFooter = () => {
             </ul>
           </Accordion.Body>
         </Accordion.Item>
-        <Accordion.Item eventKey="4">
+        <Accordion.Item eventKey="5">
           <Accordion.Header>
             <h5 style={{ fontWeight: "bold" }}>Socials</h5>
           </Accordion.Header>
           <Accordion.Body>
-            <a href="https://twitter.com/SellVsn" target="_blank">
-              <img
-                src="https://img.icons8.com/ios-filled/344/twitter.png"
-                height={50}
-                alt=""
-              />
-            </a>
+            <div className="row g-3">
+              <div className="col-4">
+                <a href="https://twitter.com/SellVsn" target="_blank">
+                  <img
+                    src="https://img.icons8.com/ios-filled/344/twitter.png"
+                    height={50}
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="col-4">
+                <a href="https://medium.com/@sell_74218" target="_blank">
+                  <img
+                    src="https://img.icons8.com/ios-filled/344/medium-logo.png"
+                    height={50}
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="col-4">
+                <a href="https://www.instagram.com/vsnsell/" target="_blank">
+                  <img
+                    src="https://img.icons8.com/ios-glyphs/344/instagram-new.png"
+                    height={50}
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
