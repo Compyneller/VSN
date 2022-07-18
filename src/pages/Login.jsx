@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import login from "../assets/login.svg";
 const Login = () => {
+  const [mobile, setMobile] = useState("");
+  const [password, setPassword] = useState("");
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const body = {};
+  };
   return (
     <div className="loginContainer">
       <Container>
@@ -11,7 +17,7 @@ const Login = () => {
           </div>
           <div className="col-12 col-lg-8 d-flex align-items-center justify-content-center">
             <div className="Auth-form-container">
-              <form className="Auth-form">
+              <form className="Auth-form" onSubmit={(e) => handleSubmit(e)}>
                 <div className="Auth-form-content">
                   <h3 className="Auth-form-title">Sign In</h3>
                   <div className="form-group mt-3">
@@ -20,6 +26,7 @@ const Login = () => {
                       type="email"
                       className="form-control mt-1"
                       placeholder="Enter Mobile Number / Email"
+                      onChange={(e) => setMobile(e.target.value)}
                     />
                   </div>
                   <div className="form-group mt-3">
@@ -28,6 +35,7 @@ const Login = () => {
                       type="password"
                       className="form-control mt-1"
                       placeholder="Enter password"
+                      onChange={(e) => setPassword(e.target.value)}
                     />
                   </div>
                   <div className="d-grid gap-2 mt-3">

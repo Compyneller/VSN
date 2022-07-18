@@ -1,12 +1,12 @@
 import { Col, Container, Row } from "react-bootstrap";
 import image from "../assets/portrait-smiling-cheerful-man.jpg";
 import check from "../assets/check.png";
+import video from "../assets/Untitled (1).mp4";
 const WhyPeopleTrustUs = () => {
   return (
     <div
       style={{
-        backgroundImage:
-          "linear-gradient(to top right , #1A237E, #3F51B5, #C5CAE9",
+        background: "#002549",
       }}
     >
       <Container className="text-light">
@@ -91,19 +91,23 @@ const WhyPeopleTrustUs = () => {
             <div
               style={{ position: "relative", width: "100%", height: "100%" }}
             >
-              <div className="whyTrustBg"></div>
-              <img
-                src={image}
+              <video
+                muted
+                loop
+                autoPlay
+                src={video}
                 alt=""
-                style={{
-                  position: "absolute",
-                  bottom: "0",
-                  zIndex: "300",
-                  right: "0",
-                  width: "60%",
-                  height: "90%",
-                  objectFit: "cover",
-                }}
+                height={550}
+                className="w-100"
+                // style={{
+                //   position: "absolute",
+                //   bottom: "0",
+                //   zIndex: "300",
+                //   right: "0",
+                //   width: "60%",
+                //   height: "90%",
+                //   objectFit: "cover",
+                // }}
               />
             </div>
           </Col>

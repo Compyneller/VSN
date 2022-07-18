@@ -46,11 +46,15 @@ const LgFooter = () => {
       <Col sm={12} md={6} lg={2}>
         <h5 style={{ fontWeight: "bold" }}>Help Support</h5>
 
-        {/* <li>
-          <Link className='text-light' to="/privacy" onClick={() => window.scroll(0, 0)}>
-            Privacy Policy
+        <li>
+          <Link
+            className="text-light"
+            to="/"
+            onClick={() => window.scroll(0, 0)}
+          >
+            How vsnsolutions works
           </Link>
-        </li> */}
+        </li>
         <li>
           <Link
             className="text-light"

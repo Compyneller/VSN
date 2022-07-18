@@ -14,7 +14,7 @@ const SellYourGadget = () => {
         <br />
         <Row className="g-3 text-center">
           <Col sm={12} md={6} lg={4}>
-            <Card className="shadow-sm" style={{ background: "#FAFAFA" }}>
+            <Card className="shadow" style={{ background: "#FAFAFA" }}>
               <Card.Body>
                 <Row>
                   <div className="col-3 p-0 d-flex justify-content-start align-items-center ">
@@ -38,7 +38,7 @@ const SellYourGadget = () => {
             </Card>
           </Col>
           <Col sm={12} md={6} lg={4}>
-            <Card className="shadow-sm" style={{ background: "#FAFAFA" }}>
+            <Card className="shadow" style={{ background: "#FAFAFA" }}>
               <Card.Body>
                 <Row>
                   <div className="col-3 p-0 d-flex justify-content-start align-items-center ">
@@ -62,7 +62,7 @@ const SellYourGadget = () => {
             </Card>
           </Col>
           <Col sm={12} md={6} lg={4}>
-            <Card className="shadow-sm" style={{ background: "#FAFAFA" }}>
+            <Card className="shadow" style={{ background: "#FAFAFA" }}>
               <Card.Body>
                 <Row>
                   <div className="col-3 p-0 d-flex justify-content-start align-items-center ">

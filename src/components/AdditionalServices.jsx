@@ -1,11 +1,5 @@
 import { Card, Col, Row } from "react-bootstrap";
-import recycle from "../assets/recycle.png";
-import refur from "../assets/refur.png";
-import repair from "../assets/repair.png";
-import visit from "../assets/visit.png";
-import earphone from "../assets/earphone.png";
-import find from "../assets/find.png";
-import compare from "../assets/compare.png";
+
 import Modal from "../Modal/Modal";
 import { useState } from "react";
 
@@ -14,53 +8,105 @@ const AdditionalServices = () => {
   return (
     <>
       <h3>Additional Services</h3>
-      <Row className="g-3 text-center">
-        <Col xs={4} sm={3} md={3} lg={2}>
+      <Row className=" g-lg-4 g-2 text-center">
+        <Col
+          xs={4}
+          sm={3}
+          md={3}
+          lg={4}
+          className="d-flex align-items-center justify-content-center "
+        >
           <Card
-            className="shadow-sm"
-            style={{ width: "100%" }}
+            className="shadow cardHover"
             onClick={() => setAddtionalModal(true)}
           >
-            <Card.Body>
-              <img src={refur} alt="" className="customIcons" />
-              <p>Refurbished Phone</p>
-            </Card.Body>
+            <div className="row g-0">
+              <div className="col-12 col-lg-6 d-flex align-items-center justify-content-center">
+                <img
+                  className="w-100 rounded"
+                  src="https://images.unsplash.com/photo-1646821804389-9778ce2a4fd7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                  alt=""
+                />
+              </div>
+              <div className="col-12 col-lg-6 d-flex text-center  align-items-center justify-content-center">
+                <h5>Refurbished Phone </h5>
+              </div>
+            </div>
           </Card>
         </Col>
-        <Col xs={4} sm={3} md={3} lg={2}>
+        <Col
+          xs={4}
+          sm={3}
+          md={3}
+          lg={4}
+          className="d-flex align-items-center justify-content-center "
+        >
           <Card
-            className="shadow-sm"
-            style={{ width: "100%" }}
+            className="shadow cardHover"
             onClick={() => setAddtionalModal(true)}
           >
-            <Card.Body>
-              <img src={repair} alt="" className="customIcons" />
-              <p>Repair Phone</p>
-            </Card.Body>
+            <div className="row g-0">
+              <div className="col-12 col-lg-6 d-flex align-items-center justify-content-center">
+                <img
+                  className="w-100 rounded"
+                  src="https://images.unsplash.com/photo-1576613109753-27804de2cba8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                  alt=""
+                />
+              </div>
+              <div className="col-12 col-lg-6 d-flex text-center  align-items-center justify-content-center">
+                <h5>Repair Phone </h5>
+              </div>
+            </div>
           </Card>
         </Col>
-        <Col xs={4} sm={3} md={3} lg={2}>
+        <Col
+          xs={4}
+          sm={3}
+          md={3}
+          lg={4}
+          className="d-flex align-items-center justify-content-center "
+        >
           <Card
-            className="shadow-sm"
-            style={{ width: "100%" }}
+            className="shadow cardHover"
             onClick={() => setAddtionalModal(true)}
           >
-            <Card.Body>
-              <img src={find} alt="" className="customIcons" />
-              <p>Find New Phone</p>
-            </Card.Body>
+            <div className="row g-0">
+              <div className="col-12 col-lg-6 d-flex align-items-center justify-content-center">
+                <img
+                  className="w-100 rounded"
+                  src="https://images.unsplash.com/photo-1601972599748-19fe5a7e756f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=813&q=80"
+                  alt=""
+                />
+              </div>
+              <div className="col-12 col-lg-6 d-flex text-center  align-items-center justify-content-center">
+                <h5>Find New Phone </h5>
+              </div>
+            </div>
           </Card>
         </Col>
-        <Col xs={4} sm={3} md={3} lg={2}>
+        <Col
+          xs={4}
+          sm={3}
+          md={3}
+          lg={4}
+          className="d-flex align-items-center justify-content-center "
+        >
           <Card
-            className="shadow-sm"
-            style={{ width: "100%" }}
+            className="shadow cardHover"
             onClick={() => setAddtionalModal(true)}
           >
-            <Card.Body>
-              <img src={recycle} alt="" className="customIcons" />
-              <p>Recycle Phone</p>
-            </Card.Body>
+            <div className="row g-0">
+              <div className="col-12 col-lg-6 d-flex align-items-center justify-content-center">
+                <img
+                  className="w-100 rounded"
+                  src="https://images.unsplash.com/photo-1604187351574-c75ca79f5807?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                  alt=""
+                />
+              </div>
+              <div className="col-12 col-lg-6 d-flex text-center  align-items-center justify-content-center">
+                <h5>Recycled Phone </h5>
+              </div>
+            </div>
           </Card>
         </Col>
 
@@ -68,43 +114,76 @@ const AdditionalServices = () => {
           xs={4}
           sm={3}
           md={3}
-          lg={2}
-          onClick={() => setAddtionalModal(true)}
+          lg={4}
+          className="d-flex align-items-center justify-content-center "
         >
           <Card
-            className="shadow-sm"
-            style={{ width: "100%" }}
+            className="shadow cardHover"
             onClick={() => setAddtionalModal(true)}
           >
-            <Card.Body>
-              <img src={visit} alt="" className="customIcons" />
-              <p>Visit Our Store</p>
-            </Card.Body>
+            <div className="row g-0">
+              <div className="col-12 col-lg-6 d-flex align-items-center justify-content-center">
+                <img
+                  className="w-100 rounded"
+                  src="https://images.unsplash.com/photo-1614791189661-93412a35af54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                  alt=""
+                />
+              </div>
+              <div className="col-12 col-lg-6 d-flex text-center  align-items-center justify-content-center">
+                <h5>Visit Store </h5>
+              </div>
+            </div>
           </Card>
         </Col>
 
-        <Col xs={4} sm={3} md={3} lg={2}>
+        <Col
+          xs={4}
+          sm={3}
+          md={3}
+          lg={4}
+          className="d-flex align-items-center justify-content-center "
+        >
           <Card
-            className="shadow-sm"
-            style={{ width: "100%" }}
+            className="shadow cardHover"
             onClick={() => setAddtionalModal(true)}
           >
-            <Card.Body>
-              <img src={compare} alt="" className="customIcons" />
-              <p>Compare Phone</p>
-            </Card.Body>
+            <div className="row g-0">
+              <div className="col-12 col-lg-6 d-flex align-items-center justify-content-center">
+                <img
+                  className="w-100 rounded"
+                  src="https://images.unsplash.com/photo-1590935217281-8f102120d683?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                  alt=""
+                />
+              </div>
+              <div className="col-12 col-lg-6 d-flex text-center  align-items-center justify-content-center">
+                <h5>Compare Phone</h5>
+              </div>
+            </div>
           </Card>
         </Col>
-        <Col xs={4} sm={3} md={3} lg={2}>
+        <Col
+          xs={4}
+          sm={3}
+          md={3}
+          lg={4}
+          className="d-flex align-items-center justify-content-center "
+        >
           <Card
-            className="shadow-sm"
-            style={{ width: "100%" }}
+            className="shadow cardHover"
             onClick={() => setAddtionalModal(true)}
           >
-            <Card.Body>
-              <img src={earphone} alt="" className="customIcons" />
-              <p>Buy Accessories</p>
-            </Card.Body>
+            <div className="row g-0">
+              <div className="col-12 col-lg-6 d-flex align-items-center justify-content-center">
+                <img
+                  className="w-100 rounded"
+                  src="https://images.unsplash.com/photo-1573739022854-abceaeb585dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                  alt=""
+                />
+              </div>
+              <div className="col-12 col-lg-6 d-flex text-center  align-items-center justify-content-center">
+                <h5>Buy Accessories</h5>
+              </div>
+            </div>
           </Card>
         </Col>
       </Row>
