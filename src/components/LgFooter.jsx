@@ -20,13 +20,22 @@ const LgFooter = () => {
         <h5 style={{ fontWeight: "bold" }}>Company</h5>
 
         <li>
-          <Link
+          <a
             className="text-light"
-            to="/aboutUs"
-            onClick={() => window.scroll(0, 0)}
+            href="https://medium.com/@sell_74218/about-us-vsn-solutions-59cfe9fe48bf"
+            target="_blank"
           >
             About Us
-          </Link>
+          </a>
+        </li>
+        <li>
+          <a
+            className="text-light"
+            href="https://medium.com/@sell_74218/contact-us-vsn-solutions-4584559b4171"
+            target="_blank"
+          >
+            Contact Us
+          </a>
         </li>
         <li>
           <Link
@@ -44,16 +53,25 @@ const LgFooter = () => {
         <li>Mobile Phone</li>
       </Col>
       <Col sm={12} md={6} lg={2}>
-        <h5 style={{ fontWeight: "bold" }}>Help Support</h5>
+        <h5 style={{ fontWeight: "bold" }}>Help & Support</h5>
 
         <li>
-          <Link
+          <a
             className="text-light"
-            to="/"
-            onClick={() => window.scroll(0, 0)}
+            href="https://medium.com/@sell_74218/vsn-solutions-how-it-works-805f97e3d97d"
+            target="_blank"
           >
-            How vsnsolutions works
-          </Link>
+            How Vsnsolutions works
+          </a>
+        </li>
+        <li>
+          <a
+            className="text-light"
+            href="https://medium.com/@sell_74218/online-registration-pricing-structure-ec5c2fed937a"
+            target="_blank"
+          >
+            Online Registration & Pricing Structure
+          </a>
         </li>
         <li>
           <Link
@@ -65,35 +83,35 @@ const LgFooter = () => {
           </Link>
         </li>
         <li>
-          <Link
+          <a
             className="text-light"
-            to="/refund"
-            onClick={() => window.scroll(0, 0)}
+            href="https://medium.com/@sell_74218/refund-cancellation-policy-vsn-solutions-3448c508449a"
+            target="_blank"
           >
-            Refund Policy
-          </Link>
+            Refund and Cancellation
+          </a>
         </li>
       </Col>
       <Col sm={12} md={6} lg={2}>
         <h5 style={{ fontWeight: "bold" }}>More about us</h5>
 
         <li>
-          <Link
+          <a
             className="text-light"
-            to="/privacy"
-            onClick={() => window.scroll(0, 0)}
+            href="https://medium.com/@sell_74218/privacy-policy-vsn-solutions-924166c14695"
+            target="_blank"
           >
             Privacy Policy
-          </Link>
+          </a>
         </li>
         <li>
-          <Link
+          <a
             className="text-light"
-            to="/tc"
-            onClick={() => window.scroll(0, 0)}
+            href="https://medium.com/@sell_74218/terms-conditions-vsn-solutions-a4d32fe838c4"
+            target="_blank"
           >
             Terms & Condition
-          </Link>
+          </a>
         </li>
         <li>
           <Link

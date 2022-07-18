@@ -49,3 +49,65 @@ img {
   .carouselSubHeading{
     font-size: 2vw !important;
   }
+
+  @media screen and (max-width : 800px) {
+
+    .TopHeaderMainContainer{
+    
+    width: 100%;
+    height: 100vh;
+    background: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.TopHeaderBackground{
+    /* z-index: -1; */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+.TopHeaderContent{
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffff;
+
+}
+.TopHeaderCard{
+    margin: auto ;
+    
+    width: 100%;
+    height: 50vh;
+
+}
+img {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+  
+    /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+    image-rendering: -webkit-optimize-contrast;
+  }
+  .CarouselHeading{
+    font-size: 10vw !important;
+    text-align: center;
+  }
+  .carouselSubHeading{
+    font-size: 6vw !important;
+    text-align: center;
+  }
+  .checkPriceButton{
+    margin: auto !important;
+  }
+
+  }

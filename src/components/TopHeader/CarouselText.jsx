@@ -12,7 +12,7 @@ const CarouselText = () => {
         </h5>
         <br />
         <a
-          className="bg-dark p-2 my-auto d-flex rounded text-light"
+          className="bg-dark p-2 my-auto d-flex rounded text-light checkPriceButton"
           href="mailto:sell@vsnsellsolutions.com"
           variant="dark"
           style={{ width: "fit-content" }}
@@ -29,7 +29,7 @@ const CarouselText = () => {
         </h5>
         <br />
         <a
-          className="bg-dark p-2 my-auto d-flex rounded text-light"
+          className="bg-dark p-2 my-auto d-flex rounded text-light checkPriceButton"
           href="mailto:sell@vsnsellsolutions.com"
           variant="dark"
           style={{ width: "fit-content" }}
@@ -41,10 +41,10 @@ const CarouselText = () => {
         <h1 className="text-light CarouselHeading">
           Looking for your next phone
         </h1>
-        <h5 className="text-light carouselSubHeading">Click Here </h5>
+        <h5 className="text-light carouselSubHeading ">Click Here </h5>
         <br />
         <a
-          className="bg-light p-2 my-auto d-flex rounded text-dark"
+          className="bg-light p-2 my-auto d-flex rounded text-dark checkPriceButton"
           href="mailto:sell@vsnsellsolutions.com"
           variant="dark"
           style={{ width: "fit-content" }}

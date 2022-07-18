@@ -27,9 +27,20 @@ const MobileFooter = () => {
           <Accordion.Body>
             <ul>
               <li>
-                <Link to="/aboutUs" onClick={() => window.scroll(0, 0)}>
+                <a
+                  href="https://medium.com/@sell_74218/about-us-vsn-solutions-59cfe9fe48bf"
+                  target="_blank"
+                >
                   About Us
-                </Link>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://medium.com/@sell_74218/contact-us-vsn-solutions-4584559b4171"
+                  target="_blank"
+                >
+                  Contact Us
+                </a>
               </li>
               <li>
                 <Link to="/career" onClick={() => window.scroll(0, 0)}>
@@ -51,19 +62,38 @@ const MobileFooter = () => {
         </Accordion.Item>
         <Accordion.Item eventKey="3">
           <Accordion.Header>
-            <h5 style={{ fontWeight: "bold" }}>Help Support</h5>
+            <h5 style={{ fontWeight: "bold" }}>Help & Support</h5>
           </Accordion.Header>
           <Accordion.Body>
             <ul>
+              <li>
+                <a
+                  href="https://medium.com/@sell_74218/vsn-solutions-how-it-works-805f97e3d97d"
+                  target="_blank"
+                >
+                  How Vsnsolutions works
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://medium.com/@sell_74218/online-registration-pricing-structure-ec5c2fed937a"
+                  target="_blank"
+                >
+                  Online Registration & Pricing Structure
+                </a>
+              </li>
               <li>
                 <Link to="/warranty" onClick={() => window.scroll(0, 0)}>
                   Warranty Policy
                 </Link>
               </li>
               <li>
-                <Link to="/refund" onClick={() => window.scroll(0, 0)}>
-                  Refund Policy
-                </Link>
+                <a
+                  href="https://medium.com/@sell_74218/refund-cancellation-policy-vsn-solutions-3448c508449a"
+                  onClick={() => window.scroll(0, 0)}
+                >
+                  Refund and Cancellation
+                </a>
               </li>
             </ul>
           </Accordion.Body>
@@ -75,14 +105,20 @@ const MobileFooter = () => {
           <Accordion.Body>
             <ul>
               <li>
-                <Link to="/privacy" onClick={() => window.scroll(0, 0)}>
+                <a
+                  href="https://medium.com/@sell_74218/privacy-policy-vsn-solutions-924166c14695"
+                  target="_blank"
+                >
                   Privacy Policy
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/tc" onClick={() => window.scroll(0, 0)}>
+                <a
+                  href="https://medium.com/@sell_74218/terms-conditions-vsn-solutions-a4d32fe838c4"
+                  target="_blank"
+                >
                   Terms & Condition
-                </Link>
+                </a>
               </li>
               <li>
                 <Link to="/legal" onClick={() => window.scroll(0, 0)}>

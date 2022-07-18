@@ -15,7 +15,8 @@ import WhyPeopleTrustUs from "../components/WhyPeopleTrustUs";
 const Home = () => {
   return (
     <>
-      {window.innerWidth <= 750 ? "" : <TopHeader />}
+      {/* {window.innerWidth <= 750 ? "" : <TopHeader />} */}
+      <TopHeader />
       <SellForCash />
       <SellYourGadget />
       <WhyPeopleTrustUs />
