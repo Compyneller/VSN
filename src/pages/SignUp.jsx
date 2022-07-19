@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import otpImage from "../assets/otp.svg";
 import axios from "axios";
+import Toastify from "toastify-js";
 const SignUp = () => {
   const history = useNavigate();
   const [value, setValue] = useState("");
@@ -12,22 +13,30 @@ const SignUp = () => {
   const [sendOtp, setSendOtp] = useState("Send Otp");
   const sendOTP = async () => {
     const json = {
-      to: `+91${value}`,
+      mobile_no: `+91${value}`,
     };
-    console.log(json);
+
     const { data } = await axios.post(
-      "http://34.207.41.229:4100/twilio/sendCode",
+      "https://34.207.41.229:4100/twilio/sendCode",
       json
     );
-    setOtpDetails(data);
-    var count = 60;
-    const timer = setInterval(function () {
-      setSendOtp(`Resend Otp ${count--}`);
-      if (count === -1) {
-        clearInterval(timer);
-        setSendOtp("Send Otp");
-      }
-    }, 1000);
+    console.log(data);
+    if (data.status === "pending") {
+      Toastify({
+        text: "OTP Sent",
+
+        duration: 3000,
+      }).showToast();
+      setOtpDetails(data);
+      var count = 60;
+      const timer = setInterval(function () {
+        setSendOtp(`Resend Otp ${count--}`);
+        if (count === -1) {
+          clearInterval(timer);
+          setSendOtp("Send Otp");
+        }
+      }, 1000);
+    }
   };
 
   const verifyOtp = async (e) => {
@@ -79,7 +88,7 @@ const SignUp = () => {
                       disabled={sendOtp === "Send Otp" ? false : true}
                       onClick={() => sendOTP()}
                     >
-                      Send OTP
+                      {sendOtp}
                     </button>
                   </div>
                   <div className="form-group mt-3">
