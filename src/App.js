@@ -20,6 +20,7 @@ import EnterUserDetail from "./pages/EnterUserDetail";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import "toastify-js/src/toastify.css";
 
 function App() {
   useEffect(() => {

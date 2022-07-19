@@ -1,7 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Row, Form } from "react-bootstrap";
 import signup from "../assets/signup.svg";
 const EnterUserDetail = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPass, setConfirmPass] = useState("");
+  const [aadhar, setAadhar] = useState("");
+  const [pan, setPan] = useState("");
+  const [frontAadhar, setFrontAadhar] = useState("");
+  const [backAadhar, setBackAadhar] = useState("");
+  const [panImage, setPanImage] = useState("");
+
+  const uploadFrontAadhar = async (e) => {};
+  const uploadBackAadhar = async (e) => {};
+  const uploadPan = async (e) => {};
   return (
     <div className="loginContainer">
       <Container>
@@ -20,7 +33,9 @@ const EnterUserDetail = () => {
                       type="text"
                       className="form-control mt-1"
                       name="name"
+                      required
                       placeholder="Enter Name"
+                      onChange={(e) => setName(e.target.value)}
                     />
                   </div>
                   <div className="form-group mt-3">
@@ -28,8 +43,10 @@ const EnterUserDetail = () => {
                     <input
                       type="mail"
                       className="form-control mt-1"
+                      required
                       name="email"
                       placeholder="Enter Email"
+                      onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
                   <div className="form-group mt-3">
@@ -37,8 +54,10 @@ const EnterUserDetail = () => {
                     <input
                       type="password"
                       className="form-control mt-1"
+                      required
                       name="password"
                       placeholder="Enter password"
+                      onChange={(e) => setPassword(e.target.value)}
                     />
                   </div>
                   <div className="form-group mt-3">
@@ -46,8 +65,10 @@ const EnterUserDetail = () => {
                     <input
                       type="password"
                       className="form-control mt-1"
+                      required
                       name="confirm"
                       placeholder="Confirm password"
+                      onChange={(e) => setConfirmPass(e.target.value)}
                     />
                   </div>
                   <div className="form-group mt-3">
@@ -55,7 +76,9 @@ const EnterUserDetail = () => {
                     <input
                       type="number"
                       className="form-control mt-1"
+                      required
                       placeholder="Enter Aadhar Number"
+                      onChange={(e) => setAadhar(e.target.value)}
                     />
                   </div>
                   <div className="form-group mt-3">
@@ -63,28 +86,42 @@ const EnterUserDetail = () => {
                     <input
                       type="number"
                       className="form-control mt-1"
+                      required
                       placeholder="Enter PAN Number"
+                      onChange={(e) => setPan(e.target.value)}
                     />
                   </div>
                   <div className="form-group mt-3">
                     <Form.Group controlId="formFile" className="mb-3">
                       <Form.Label>Upload Front Side of Aadhar</Form.Label>
 
-                      <Form.Control type="file" />
+                      <Form.Control
+                        type="file"
+                        required
+                        onChange={() => uploadFrontAadhar()}
+                      />
                     </Form.Group>
                   </div>
                   <div className="form-group mt-3">
                     <Form.Group controlId="formFile" className="mb-3">
                       <Form.Label>Upload Back Side of Aadhar</Form.Label>
 
-                      <Form.Control type="file" />
+                      <Form.Control
+                        type="file"
+                        required
+                        onChange={() => uploadBackAadhar()}
+                      />
                     </Form.Group>
                   </div>
                   <div className="form-group mt-3">
                     <Form.Group controlId="formFile" className="mb-3">
                       <Form.Label>Upload PAN Card</Form.Label>
 
-                      <Form.Control type="file" />
+                      <Form.Control
+                        type="file"
+                        required
+                        onChange={() => uploadPan()}
+                      />
                     </Form.Group>
                   </div>
 

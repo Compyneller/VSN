@@ -13,11 +13,13 @@ const SignUp = () => {
   const [sendOtp, setSendOtp] = useState("Send Otp");
   const sendOTP = async () => {
     const json = {
-      mobile_no: `+91${value}`,
+      country_code: 91,
+      mobile_no: `${value}`,
+      email: "nilaypradhan01@gmail.com",
     };
 
     const { data } = await axios.post(
-      "https://34.207.41.229:4100/twilio/sendCode",
+      "http://34.207.41.229:4100/twilio/sendCode",
       json
     );
     console.log(data);
