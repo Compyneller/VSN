@@ -14,7 +14,7 @@ const Login = () => {
     };
     console.log(body);
     const response = await axios.post(
-      "https://34.207.41.229:4100/vsnSellSoutions/login",
+      "http://34.207.41.229:4100/vsnSellSoutions/login",
       body
     );
     console.log(response);

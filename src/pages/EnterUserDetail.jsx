@@ -24,7 +24,7 @@ const EnterUserDetail = () => {
         pan_number: pan,
       };
       const { data } = await axios.post(
-        "https://34.207.41.229:4100/vsnSellSoutions/signup",
+        "http://34.207.41.229:4100/vsnSellSoutions/signup",
         body
       );
       console.log(data);
@@ -36,7 +36,7 @@ const EnterUserDetail = () => {
   const uploadFrontAadhar = async (e) => {
     setFrontAadhar(e.target.files[0]);
     const { data } = await axios.post(
-      "https://34.207.41.229:4100/vsnSellSoutions/uploadIds",
+      "http://34.207.41.229:4100/vsnSellSoutions/uploadIds",
       frontAadhar
     );
     console.log(data);
