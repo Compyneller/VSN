@@ -19,18 +19,18 @@ const SignUp = () => {
         email: "nilaypradhan01@gmail.com",
       };
 
-      const { data } = await axios.post(
-        "https://34.207.41.229:4100/twilio/sendCode",
+      const response = await axios.post(
+        "http://34.207.41.229:4100/twilio/sendCode",
         json
       );
-      console.log(data);
-      if (data.status === "pending") {
+      console.log(response);
+      if (response?.data.status === "pending") {
         Toastify({
           text: "OTP Sent",
 
           duration: 3000,
         }).showToast();
-        setOtpDetails(data);
+        setOtpDetails(response?.data);
         var count = 60;
         const timer = setInterval(function () {
           setSendOtp(`Resend Otp ${count--}`);
@@ -51,22 +51,32 @@ const SignUp = () => {
 
   const verifyOtp = async (e) => {
     e.preventDefault();
-    const json = {
-      to: `+91${value}`,
-      code: `${otp}`,
-    };
-    console.log(json);
-    const { data } = await axios.post(
-      "http://34.207.41.229:4100/twilio/verifyCode",
-      json
-    );
-    localStorage.setItem("Phone", otpDetails.phone);
-    if (data.msg === "Otp verified") {
-      alert("Otp verified");
-      history("/register-2");
-    } else {
-      setMsg(true);
-      history("/userdetail");
+    try {
+      const json = {
+        mobile_no: `${value}`,
+        country_code: 91,
+        otp: `${otp}`,
+      };
+      console.log(json);
+      const response = await axios.post(
+        "http://34.207.41.229:4100/twilio/verifyCode",
+        json
+      );
+      console.log(response);
+      if (response?.data.success === true) {
+        Toastify({
+          text: "OTP Verified Successfully",
+
+          duration: 3000,
+        }).showToast();
+        history("/userdetail");
+      }
+    } catch (error) {
+      Toastify({
+        text: "Wrong OTP",
+
+        duration: 3000,
+      }).showToast();
     }
   };
   return (

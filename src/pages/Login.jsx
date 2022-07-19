@@ -1,12 +1,23 @@
+import axios from "axios";
 import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import login from "../assets/login.svg";
 const Login = () => {
   const [mobile, setMobile] = useState("");
   const [password, setPassword] = useState("");
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    const body = {};
+    const body = {
+      mobile_no: mobile,
+      password: password,
+      country_code: 91,
+    };
+    console.log(body);
+    const response = await axios.post(
+      "https://34.207.41.229:4100/vsnSellSoutions/login",
+      body
+    );
+    console.log(response);
   };
   return (
     <div className="loginContainer">
@@ -23,7 +34,7 @@ const Login = () => {
                   <div className="form-group mt-3">
                     <label>Mobile Number / Email</label>
                     <input
-                      type="email"
+                      type="text"
                       className="form-control mt-1"
                       placeholder="Enter Mobile Number / Email"
                       onChange={(e) => setMobile(e.target.value)}

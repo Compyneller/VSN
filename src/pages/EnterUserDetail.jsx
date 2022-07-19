@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { Container, Row, Form } from "react-bootstrap";
+import { Container, Row, Form, InputGroup } from "react-bootstrap";
 import signup from "../assets/signup.svg";
+import axios from "axios";
 const EnterUserDetail = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -12,7 +13,34 @@ const EnterUserDetail = () => {
   const [backAadhar, setBackAadhar] = useState("");
   const [panImage, setPanImage] = useState("");
 
-  const uploadFrontAadhar = async (e) => {};
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const body = {
+        name: name,
+        email: email,
+        password: password,
+        aadhar_number: aadhar,
+        pan_number: pan,
+      };
+      const { data } = await axios.post(
+        "https://34.207.41.229:4100/vsnSellSoutions/signup",
+        body
+      );
+      console.log(data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  const uploadFrontAadhar = async (e) => {
+    setFrontAadhar(e.target.files[0]);
+    const { data } = await axios.post(
+      "https://34.207.41.229:4100/vsnSellSoutions/uploadIds",
+      frontAadhar
+    );
+    console.log(data);
+  };
   const uploadBackAadhar = async (e) => {};
   const uploadPan = async (e) => {};
   return (
@@ -24,7 +52,7 @@ const EnterUserDetail = () => {
           </div>
           <div className="col-12 col-lg-8 ">
             <div className="Auth-form-container">
-              <form className="Auth-form">
+              <form className="Auth-form" onSubmit={(e) => handleSubmit(e)}>
                 <div className="Auth-form-content">
                   <h3 className="Auth-form-title">Sign Up</h3>
                   <div className="form-group mt-3">
@@ -62,9 +90,10 @@ const EnterUserDetail = () => {
                   </div>
                   <div className="form-group mt-3">
                     <label>Confirm Password</label>
+
                     <input
                       type="password"
-                      className="form-control mt-1"
+                      className="form-control mt-1 "
                       required
                       name="confirm"
                       placeholder="Confirm password"
@@ -98,11 +127,11 @@ const EnterUserDetail = () => {
                       <Form.Control
                         type="file"
                         required
-                        onChange={() => uploadFrontAadhar()}
+                        onChange={(e) => uploadFrontAadhar(e)}
                       />
                     </Form.Group>
                   </div>
-                  <div className="form-group mt-3">
+                  {/* <div className="form-group mt-3">
                     <Form.Group controlId="formFile" className="mb-3">
                       <Form.Label>Upload Back Side of Aadhar</Form.Label>
 
@@ -123,7 +152,7 @@ const EnterUserDetail = () => {
                         onChange={() => uploadPan()}
                       />
                     </Form.Group>
-                  </div>
+                  </div> */}
 
                   <div className="d-grid gap-2 mt-3">
                     <button type="submit" className="btn btn-primary">
