@@ -12,32 +12,40 @@ const SignUp = () => {
   const [otpDetails, setOtpDetails] = useState({});
   const [sendOtp, setSendOtp] = useState("Send Otp");
   const sendOTP = async () => {
-    const json = {
-      country_code: 91,
-      mobile_no: `${value}`,
-      email: "nilaypradhan01@gmail.com",
-    };
+    try {
+      const json = {
+        country_code: 91,
+        mobile_no: `${value}`,
+        email: "nilaypradhan01@gmail.com",
+      };
 
-    const { data } = await axios.post(
-      "http://34.207.41.229:4100/twilio/sendCode",
-      json
-    );
-    console.log(data);
-    if (data.status === "pending") {
+      const { data } = await axios.post(
+        "https://34.207.41.229:4100/twilio/sendCode",
+        json
+      );
+      console.log(data);
+      if (data.status === "pending") {
+        Toastify({
+          text: "OTP Sent",
+
+          duration: 3000,
+        }).showToast();
+        setOtpDetails(data);
+        var count = 60;
+        const timer = setInterval(function () {
+          setSendOtp(`Resend Otp ${count--}`);
+          if (count === -1) {
+            clearInterval(timer);
+            setSendOtp("Send Otp");
+          }
+        }, 1000);
+      }
+    } catch (error) {
       Toastify({
-        text: "OTP Sent",
+        text: error.message,
 
         duration: 3000,
       }).showToast();
-      setOtpDetails(data);
-      var count = 60;
-      const timer = setInterval(function () {
-        setSendOtp(`Resend Otp ${count--}`);
-        if (count === -1) {
-          clearInterval(timer);
-          setSendOtp("Send Otp");
-        }
-      }, 1000);
     }
   };
 
