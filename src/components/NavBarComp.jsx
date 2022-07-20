@@ -5,8 +5,11 @@ import Navbar from "react-bootstrap/Navbar";
 import "./Comp.scss";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
+import LoginuserDetail from "./LoginuserDetail";
+import LoginButton from "./LoginButton";
 
 const NavBarComp = () => {
+  console.log(localStorage.getItem("in"));
   return (
     <Navbar
       bg="light"
@@ -36,9 +39,11 @@ const NavBarComp = () => {
               Pricing
             </Link>
 
-            <Link to="/login" onClick={() => window.scroll(0, 0)}>
-              Login / Sign Up
-            </Link>
+            {localStorage.getItem("in") === "true" ? (
+              <LoginuserDetail />
+            ) : (
+              <LoginButton />
+            )}
 
             {/* <Link to="/signup" onClick={() => window.scroll(0, 0)}>
               Signup

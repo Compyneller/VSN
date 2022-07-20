@@ -27,9 +27,17 @@ const Login = () => {
           },
         }
       );
-      console.log(response);
+
       if (response.data.success) {
+        localStorage.setItem("in", true);
+        localStorage.setItem("userDetail", JSON.stringify(response.data));
         navigate("/");
+        Toastify({
+          text: "Login",
+
+          duration: 3000,
+        }).showToast();
+        window.location.reload();
       }
     } catch (error) {
       Toastify({
