@@ -23,8 +23,9 @@ const SignUp = () => {
         "http://34.207.41.229:4100/twilio/sendCode",
         json
       );
-      console.log(response);
+
       if (response?.data.status === "pending") {
+        localStorage.setItem("mobileNumber", value);
         Toastify({
           text: "OTP Sent",
 
@@ -57,12 +58,12 @@ const SignUp = () => {
         country_code: 91,
         otp: `${otp}`,
       };
-      console.log(json);
+
       const response = await axios.post(
         "http://34.207.41.229:4100/twilio/verifyCode",
         json
       );
-      console.log(response);
+
       if (response?.data.success === true) {
         Toastify({
           text: "OTP Verified Successfully",

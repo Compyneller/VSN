@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import { Container, Row, Form, InputGroup } from "react-bootstrap";
 import signup from "../assets/signup.svg";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
+import Toastify from "toastify-js";
 const EnterUserDetail = () => {
+  const navigate = useNavigate();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -13,41 +16,104 @@ const EnterUserDetail = () => {
   const [backAadhar, setBackAadhar] = useState("");
   const [panImage, setPanImage] = useState("");
 
+  // ==================================================Previews image===========================================
+
+  const [frontAadharPrev, setFrontAadharPrev] = useState("");
+  const [backAadharPrev, setBackAadharPrev] = useState("");
+  const [panImagePrev, setPanImagePrev] = useState("");
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       const body = {
-        name: name,
-        email: email,
-        password: password,
-        aadhar_number: aadhar,
-        pan_number: pan,
+        mobile_no: `${localStorage.getItem("mobileNumber")}`,
+        name: `${name}`,
+        country_code: 91,
+        email: `${email}`,
+        password: `${password}`,
+        aadhar_number: `${aadhar}`,
+        pan_number: `${pan}`,
       };
-      const { data } = await axios.post(
-        "http://34.207.41.229:4100/vsnSellSoutions/signup",
-        body
+
+      const response = await axios.post(
+        "https://34.207.41.229:4100/vsnSellSoutions/signup",
+        body,
+        {
+          headers: {
+            Accept: "application/json, text/plain, */*",
+            "Content-Type": "application/json",
+          },
+        }
       );
-      console.log(data);
+      if (response.data.success) {
+        Toastify({
+          text: "Successfully Registered",
+
+          duration: 3000,
+        }).showToast();
+
+        navigate("/login");
+      }
     } catch (error) {
       console.log(error);
     }
   };
 
   const uploadFrontAadhar = async (e) => {
+    const d = new Date();
     setFrontAadhar(e.target.files[0]);
 
-    console.log(frontAadhar);
-    const { data } = await axios.post(
-      "http://34.207.41.229:4100/vsnSellSoutions/uploadIds",
-      frontAadhar,
+    let formData = new FormData();
+    formData.append("file", frontAadhar);
+
+    const response = await axios.post(
+      "https://34.207.41.229:4100/vsnSellSoutions/uploadIds",
+      formData,
+
       {
-        headers: { "Content-Type": "image/jpeg" },
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
       }
     );
-    console.log(data);
+    setFrontAadharPrev(URL.createObjectURL(e.target.files[0]));
   };
-  const uploadBackAadhar = async (e) => {};
-  const uploadPan = async (e) => {};
+
+  const uploadBackAadhar = async (e) => {
+    const d = new Date();
+    setBackAadhar(e.target.files[0]);
+    let formData = new FormData();
+    formData.append("file", backAadhar);
+
+    const response = await axios.post(
+      "https://34.207.41.229:4100/vsnSellSoutions/uploadIds",
+      formData,
+      {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
+      }
+    );
+    setBackAadharPrev(URL.createObjectURL(e.target.files[0]));
+  };
+  const uploadPan = async (e) => {
+    const d = new Date();
+    setPanImage(e.target.files[0]);
+
+    let formData = new FormData();
+    formData.append("file", panImage);
+
+    const response = await axios.post(
+      "https://34.207.41.229:4100/vsnSellSoutions/uploadIds",
+      formData,
+      {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
+      }
+    );
+    setPanImagePrev(URL.createObjectURL(e.target.files[0]));
+  };
   return (
     <div className="loginContainer">
       <Container>
@@ -108,7 +174,7 @@ const EnterUserDetail = () => {
                   <div className="form-group mt-3">
                     <label>Aadhar Number</label>
                     <input
-                      type="number"
+                      type="tel"
                       className="form-control mt-1"
                       required
                       placeholder="Enter Aadhar Number"
@@ -118,7 +184,7 @@ const EnterUserDetail = () => {
                   <div className="form-group mt-3">
                     <label>PAN Number</label>
                     <input
-                      type="number"
+                      type="text"
                       className="form-control mt-1"
                       required
                       placeholder="Enter PAN Number"
@@ -128,36 +194,87 @@ const EnterUserDetail = () => {
                   <div className="form-group mt-3">
                     <Form.Group controlId="formFile" className="mb-3">
                       <Form.Label>Upload Front Side of Aadhar</Form.Label>
-
-                      <Form.Control
-                        type="file"
-                        required
-                        onChange={(e) => uploadFrontAadhar(e)}
-                      />
+                      <div className="row g-1">
+                        <div className="col-10  d-flex">
+                          <input
+                            type="file"
+                            required
+                            className="m-auto form-control"
+                            accept="image/png, image/jpeg"
+                            id="inputGroupFile01"
+                            onChange={(e) => uploadFrontAadhar(e)}
+                          />
+                        </div>
+                        <div className="col-2 d-flex ">
+                          <img
+                            src={
+                              frontAadharPrev === ""
+                                ? "https://img.icons8.com/color/344/membership-card.png"
+                                : frontAadharPrev
+                            }
+                            alt=""
+                            className="w-100 m-auto"
+                          />
+                        </div>
+                      </div>
                     </Form.Group>
                   </div>
-                  {/* <div className="form-group mt-3">
+                  <div className="form-group mt-3">
                     <Form.Group controlId="formFile" className="mb-3">
                       <Form.Label>Upload Back Side of Aadhar</Form.Label>
-
-                      <Form.Control
-                        type="file"
-                        required
-                        onChange={() => uploadBackAadhar()}
-                      />
+                      <div className="row g-1">
+                        <div className="col-10 d-flex">
+                          <input
+                            type="file"
+                            required
+                            className="m-auto form-control"
+                            accept="image/png, image/jpeg"
+                            id="inputGroupFile02"
+                            onChange={(e) => uploadBackAadhar(e)}
+                          />
+                        </div>
+                        <div className="col-2">
+                          <img
+                            src={
+                              backAadharPrev === ""
+                                ? "https://img.icons8.com/color/344/membership-card.png"
+                                : backAadharPrev
+                            }
+                            alt=""
+                            className="w-100 m-auto"
+                          />
+                        </div>
+                      </div>
                     </Form.Group>
                   </div>
                   <div className="form-group mt-3">
                     <Form.Group controlId="formFile" className="mb-3">
                       <Form.Label>Upload PAN Card</Form.Label>
-
-                      <Form.Control
-                        type="file"
-                        required
-                        onChange={() => uploadPan()}
-                      />
+                      <div className="row g-1">
+                        <div className="col-10 d-flex ">
+                          <input
+                            type="file"
+                            required
+                            className="m-auto form-control"
+                            accept="image/png, image/jpeg"
+                            id="inputGroupFile03"
+                            onChange={(e) => uploadPan(e)}
+                          />
+                        </div>
+                        <div className="col-2">
+                          <img
+                            src={
+                              panImagePrev === ""
+                                ? "https://img.icons8.com/color/344/membership-card.png"
+                                : panImagePrev
+                            }
+                            alt=""
+                            className="w-100 m-auto"
+                          />
+                        </div>
+                      </div>
                     </Form.Group>
-                  </div> */}
+                  </div>
 
                   <div className="d-grid gap-2 mt-3">
                     <button type="submit" className="btn btn-primary">
