@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Row, Form, InputGroup } from "react-bootstrap";
+import { Container, Row, Form, InputGroup, Button } from "react-bootstrap";
 import signup from "../assets/signup.svg";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
@@ -61,7 +61,7 @@ const EnterUserDetail = () => {
 
   const uploadFrontAadhar = async (e) => {
     const d = new Date();
-    setFrontAadhar(e.target.files[0]);
+    console.log(frontAadhar);
 
     let formData = new FormData();
     formData.append("file", frontAadhar);
@@ -76,12 +76,13 @@ const EnterUserDetail = () => {
         },
       }
     );
-    setFrontAadharPrev(URL.createObjectURL(e.target.files[0]));
+    console.log(response);
+    setFrontAadharPrev(URL.createObjectURL(frontAadhar));
   };
 
   const uploadBackAadhar = async (e) => {
     const d = new Date();
-    setBackAadhar(e.target.files[0]);
+
     let formData = new FormData();
     formData.append("file", backAadhar);
 
@@ -94,11 +95,10 @@ const EnterUserDetail = () => {
         },
       }
     );
-    setBackAadharPrev(URL.createObjectURL(e.target.files[0]));
+    setBackAadharPrev(URL.createObjectURL(backAadhar));
   };
   const uploadPan = async (e) => {
     const d = new Date();
-    setPanImage(e.target.files[0]);
 
     let formData = new FormData();
     formData.append("file", panImage);
@@ -112,7 +112,7 @@ const EnterUserDetail = () => {
         },
       }
     );
-    setPanImagePrev(URL.createObjectURL(e.target.files[0]));
+    setPanImagePrev(URL.createObjectURL(panImage));
   };
   return (
     <div className="loginContainer">
@@ -202,7 +202,7 @@ const EnterUserDetail = () => {
                             className="m-auto form-control"
                             accept="image/png, image/jpeg"
                             id="inputGroupFile01"
-                            onChange={(e) => uploadFrontAadhar(e)}
+                            onChange={(e) => setFrontAadhar(e.target.files[0])}
                           />
                         </div>
                         <div className="col-2 d-flex ">
@@ -217,6 +217,13 @@ const EnterUserDetail = () => {
                           />
                         </div>
                       </div>
+                      <Button
+                        variant="primary"
+                        className="mt-3"
+                        onClick={(e) => uploadFrontAadhar(e)}
+                      >
+                        Upload
+                      </Button>
                     </Form.Group>
                   </div>
                   <div className="form-group mt-3">
@@ -230,7 +237,7 @@ const EnterUserDetail = () => {
                             className="m-auto form-control"
                             accept="image/png, image/jpeg"
                             id="inputGroupFile02"
-                            onChange={(e) => uploadBackAadhar(e)}
+                            onChange={(e) => setBackAadhar(e.target.files[0])}
                           />
                         </div>
                         <div className="col-2">
@@ -245,6 +252,13 @@ const EnterUserDetail = () => {
                           />
                         </div>
                       </div>
+                      <Button
+                        variant="primary"
+                        className="mt-3"
+                        onClick={(e) => uploadBackAadhar(e)}
+                      >
+                        Upload
+                      </Button>
                     </Form.Group>
                   </div>
                   <div className="form-group mt-3">
@@ -258,7 +272,7 @@ const EnterUserDetail = () => {
                             className="m-auto form-control"
                             accept="image/png, image/jpeg"
                             id="inputGroupFile03"
-                            onChange={(e) => uploadPan(e)}
+                            onChange={(e) => setPanImage(e.target.files[0])}
                           />
                         </div>
                         <div className="col-2">
@@ -273,6 +287,13 @@ const EnterUserDetail = () => {
                           />
                         </div>
                       </div>
+                      <Button
+                        className="mt-3"
+                        variant="primary"
+                        onClick={(e) => uploadPan(e)}
+                      >
+                        Upload
+                      </Button>
                     </Form.Group>
                   </div>
 
