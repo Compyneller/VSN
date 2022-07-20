@@ -35,9 +35,16 @@ const EnterUserDetail = () => {
 
   const uploadFrontAadhar = async (e) => {
     setFrontAadhar(e.target.files[0]);
+
+    const formData = new FormData();
+    formData.append("myFile", frontAadhar);
+    console.log(formData);
     const { data } = await axios.post(
       "http://34.207.41.229:4100/vsnSellSoutions/uploadIds",
-      frontAadhar
+      formData
+      // {
+      //   headers: { "Content-Type": "image/jpeg" },
+      // }
     );
     console.log(data);
   };
