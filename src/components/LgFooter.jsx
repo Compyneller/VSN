@@ -80,22 +80,22 @@ const LgFooter = () => {
         <h5 style={{ fontWeight: "bold" }}>Help & Support</h5>
 
         <li>
-          <a
+          <Link
             className="text-light"
-            href="https://medium.com/@sell_74218/vsn-solutions-how-it-works-805f97e3d97d"
-            target="_blank"
+            to="/how"
+            onClick={() => window.scroll(0, 0)}
           >
             How Vsn Solutions works
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             className="text-light"
-            href="https://medium.com/@sell_74218/online-registration-pricing-structure-ec5c2fed937a"
-            target="_blank"
+            to="/onlinereg"
+            onClick={() => window.scroll(0, 0)}
           >
             Online Registration & Pricing Structure
-          </a>
+          </Link>
         </li>
         <li>
           <Link
@@ -107,35 +107,31 @@ const LgFooter = () => {
           </Link>
         </li>
         <li>
-          <a
-            className="text-light"
-            href="https://medium.com/@sell_74218/refund-cancellation-policy-vsn-solutions-3448c508449a"
-            target="_blank"
-          >
+          <Link className="text-light" to="/refund">
             Refund and Cancellation
-          </a>
+          </Link>
         </li>
       </Col>
       <Col sm={12} md={6} lg={2}>
         <h5 style={{ fontWeight: "bold" }}>More about us</h5>
 
         <li>
-          <a
+          <Link
             className="text-light"
-            href="https://medium.com/@sell_74218/privacy-policy-vsn-solutions-924166c14695"
-            target="_blank"
+            to="/privacy"
+            onClick={() => window.scroll(0, 0)}
           >
             Privacy Policy
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             className="text-light"
-            href="https://medium.com/@sell_74218/terms-conditions-vsn-solutions-a4d32fe838c4"
-            target="_blank"
+            to="/tc"
+            onClick={() => window.scroll(0, 0)}
           >
-            Terms & Condition
-          </a>
+            Terms & Conditions
+          </Link>
         </li>
         <li>
           <Link

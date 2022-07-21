@@ -9,7 +9,7 @@ const RefundPolicy = () => {
           as="h3"
           style={{ background: "#1A237E" }}
         >
-          Refund Policy
+          Refund & Cancellation Policy- VSN Solutions
         </Card.Header>
         <Card.Body>
           <h5>

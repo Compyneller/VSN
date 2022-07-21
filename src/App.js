@@ -21,6 +21,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import "toastify-js/src/toastify.css";
+import HowVsnWork from "./pages/HowVsnWork";
+import OnlineReg from "./pages/OnlineReg";
 
 function App() {
   useEffect(() => {
@@ -45,6 +47,8 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/userdetail" element={<EnterUserDetail />} />
+          <Route path="/how" element={<HowVsnWork />} />
+          <Route path="/onlinereg" element={<OnlineReg />} />
         </Routes>
         <Footer />
         <FooterStrip />
