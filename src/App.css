@@ -11,6 +11,7 @@ body{
   border: none !important;
   height: 100%;
 }
+
 .container{
 
   padding: 3rem 0;
@@ -121,7 +122,12 @@ background-size: 115px 115px, 115px 115px, 57.5px 57.5px, 57.5px 57.5px;
 }
 
 
-
+p{
+  font-size: .93vw !important;
+}
+li{
+  font-size: .93vw !important;
+}
 
 
 

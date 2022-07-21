@@ -37,12 +37,9 @@ const MobileFooter = () => {
           <Accordion.Body>
             <ul>
               <li>
-                <a
-                  href="https://medium.com/@sell_74218/about-us-vsn-solutions-59cfe9fe48bf"
-                  target="_blank"
-                >
+                <Link to="/aboutus" onClick={() => window.scroll(0, 0)}>
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
                 <a

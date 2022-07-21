@@ -5,7 +5,7 @@ import email from "../assets/email.svg";
 import address from "../assets/address.svg";
 const ContactUs = () => {
   return (
-    <div style={{ background: "#001E3C", width: "100%" }}>
+    <div style={{ background: "#001E3C", width: "100%" }} id="contactUs">
       <Container>
         <Card
           className="shadow-sm contactUsCard rounded-lg"

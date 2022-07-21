@@ -40,22 +40,18 @@ const LgFooter = () => {
         <h5 style={{ fontWeight: "bold" }}>Company</h5>
 
         <li>
-          <a
+          <Link
+            to="/aboutus"
             className="text-light"
-            href="https://medium.com/@sell_74218/about-us-vsn-solutions-59cfe9fe48bf"
-            target="_blank"
+            onClick={() => window.scroll(0, 0)}
           >
             About Us
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            className="text-light"
-            href="https://medium.com/@sell_74218/contact-us-vsn-solutions-4584559b4171"
-            target="_blank"
-          >
+          <Link className="text-light" to="/#contactUs">
             Contact Us
-          </a>
+          </Link>
         </li>
         <li>
           <Link
