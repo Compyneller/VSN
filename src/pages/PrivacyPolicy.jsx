@@ -14,20 +14,20 @@ const PrivacyPolicy = () => {
         </Card.Header>
         <Card.Body>
           <ol>
-            <li>
-              <h5>The “introduction” of VSN Solutions:</h5>
-              <p>
-                VSN Solutions, a company having its registered office at 563,
-                VSN Solutions, Cheema Nagar Extension Jalandhar, Punjab, 144001,
-                India (“we”, “our” or “us”) take the security of your personal
-                data very seriously and are committed to protecting and
-                respecting the privacy of the users (“you” or your”) of our VSN
-                Solutions Website and App (the “Platform”).
-                <a href="www.vsnsellsolutions.com">
-                  www.vsnsellsolutions.com
-                </a>{" "}
-              </p>
-            </li>
+            <h5>
+              <li>The “introduction” of VSN Solutions:</li>
+            </h5>
+            <p>
+              VSN Solutions, a company having its registered office at 563, VSN
+              Solutions, Cheema Nagar Extension Jalandhar, Punjab, 144001, India
+              (“we”, “our” or “us”) take the security of your personal data very
+              seriously and are committed to protecting and respecting the
+              privacy of the users (“you” or your”) of our VSN Solutions Website
+              and App (the “Platform”).
+              <a href="www.vsnsellsolutions.com">
+                www.vsnsellsolutions.com
+              </a>{" "}
+            </p>
             <h5>
               <li>What “personal information” do we “collect”?</li>
             </h5>
@@ -88,6 +88,7 @@ const PrivacyPolicy = () => {
                 Website or provision you with account access).
               </li>
             </ol>
+            <br />
             <h5>
               <li>How do we “use” your “personal information”?</li>
             </h5>
@@ -131,6 +132,7 @@ const PrivacyPolicy = () => {
                 obligations.
               </li>
             </ol>
+            <br />
             <h5>
               <li>
                 What is “Compliance; Security and Functionality of Website”?

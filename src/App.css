@@ -122,12 +122,7 @@ background-size: 115px 115px, 115px 115px, 57.5px 57.5px, 57.5px 57.5px;
 }
 
 
-p{
-  font-size: .93vw !important;
-}
-li{
-  font-size: .93vw !important;
-}
+
 
 
 
@@ -342,7 +337,13 @@ h4{
 h5{
   font-size: 1.1vw !important;
 }
+h5 li{
+  font-size: 1.2vw !important;
+}
 p{
+  font-size: .9vw !important;
+}
+li{
   font-size: .9vw !important;
 }
 
@@ -385,6 +386,13 @@ p{
     font-size: 5vw !important;
   }
   p{
+    font-size: 4vw !important;
+  }
+  h5 li{
+    font-size: 4.5vw !important;
+  }
+ 
+  li{
     font-size: 4vw !important;
   }
 
