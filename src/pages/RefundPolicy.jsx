@@ -9,12 +9,15 @@ const RefundPolicy = () => {
           as="h3"
           style={{ background: "#1A237E" }}
         >
-          Refund & Cancellation Policy- VSN Solutions
+          Refund & Cancellation Policy:
         </Card.Header>
         <Card.Body>
-          <h5>
-            VSN Solutions Repair offers a refund within 2 days of the service.
-          </h5>
+          <p style={{ fontWeight: "bold" }}>
+            ● VSN Solution Repair offers a refund within 2 days of the service.{" "}
+            <br />● We offer the option of cancellation, within 24 hours of
+            placing an order.
+          </p>
+          <h5>Refund Policy-</h5>
           <p>You can claim your refund for the Screen replaced with us:</p>
           <ol>
             <li>
@@ -27,7 +30,7 @@ const RefundPolicy = () => {
                 </li>
                 <li>
                   {" "}
-                  ANY display issues that may arise without any manual
+                  ○ ANY display issues that may arise without any manual
                   intervention and are related to the screen quality
                   specifically dead pixels and touch issues.
                 </li>
@@ -70,10 +73,18 @@ const RefundPolicy = () => {
             replacement and any other repairs specifically resulting from the
             initial repair.
           </p>
-          <h5>
+          <p style={{ fontWeight: "bold" }}>
             Note: Refund is applicable only on Service prices and slot charges
             are applicable only if an order is completed.{" "}
-          </h5>
+          </p>
+
+          <h5>Cancellation Policy-</h5>
+          <p>
+            The Order cancellation is not available after 24 hours of placing an
+            order. We offer the option of cancellation, within 24 hours of
+            placing an order. Also, we might impose 2% charges on the
+            cancellation of accessories.{" "}
+          </p>
         </Card.Body>
       </Card>
     </Container>
