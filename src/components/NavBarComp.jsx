@@ -25,7 +25,7 @@ const NavBarComp = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav
             className="ms-auto customNav d-flex justify-content-between align-items-center  "
-            style={{ width: "40%" }}
+            style={{ width: "50%" }}
           >
             <Link to="/" onClick={() => window.scroll(0, 0)}>
               Home

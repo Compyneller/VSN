@@ -25,15 +25,15 @@ const BuySellModal = (props) => {
             your home.
           </li>
           <li>
-            Now select the product category you want to buy & sell and click
+            Now, select the product category you want to 'Buy & Sell' and click
             upon it.
           </li>
           <li>
-            Write us an email describing each and every detail of product you
-            want to buy & sell.
+            Write us an email describing every detail of the product you want to
+            'Buy & Sell'.
           </li>
           <li>
-            One of our Customer service agent will reach out to you regarding
+            One of our 'Customer Service Agents' will reach out to you regarding
             the product.
           </li>
         </ol>
