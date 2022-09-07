@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import LoginuserDetail from "./LoginuserDetail";
 import LoginButton from "./LoginButton";
+import BuySell from "./BuySell/BuySell";
 
 const NavBarComp = () => {
   console.log(localStorage.getItem("in"));
@@ -44,10 +45,7 @@ const NavBarComp = () => {
             ) : (
               <LoginButton />
             )}
-
-            {/* <Link to="/signup" onClick={() => window.scroll(0, 0)}>
-              Signup
-            </Link> */}
+            <BuySell />
           </Nav>
         </Navbar.Collapse>
       </Container>

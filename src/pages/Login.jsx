@@ -16,7 +16,7 @@ const Login = () => {
         password: `${password}`,
         country_code: 91,
       };
-      console.log(body);
+
       const response = await axios.post(
         "https://34.207.41.229:4100/vsnSellSoutions/login",
         body,

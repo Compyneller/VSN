@@ -7,7 +7,7 @@ import Modal from "../Modal/Modal";
 const SellForCash = () => {
   // const [openModal, setOpenModal] = useState(false);
   return (
-    <div style={{ width: "100%", background: "#091726" }}>
+    <div id="products" style={{ width: "100%", background: "#091726" }}>
       <Container>
         <Row className="g-lg-4 g-2  text-center">
           <Col
