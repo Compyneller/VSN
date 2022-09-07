@@ -5,8 +5,9 @@ const CarouselText = () => {
     <Carousel fade className="w-100" indicators={false} controls={false}>
       <Carousel.Item>
         <h1 className="text-light CarouselHeading">
-          Purana Phone Becho Aur Cash Pao
+          Buy/Sell your old Phone at Best Price
         </h1>
+
         <h5 className="text-light carouselSubHeading">
           Free Pickup | Instant Payment
         </h5>
@@ -22,7 +23,7 @@ const CarouselText = () => {
       </Carousel.Item>
       <Carousel.Item>
         <h1 className="text-light CarouselHeading">
-          Sell your old Phone at Best Price
+          Purana Phone Becho Aur Cash Pao
         </h1>
         <h5 className="text-light carouselSubHeading">
           Free Pickup | Instant Payment

@@ -23,6 +23,7 @@ import { useEffect } from "react";
 import "toastify-js/src/toastify.css";
 import HowVsnWork from "./pages/HowVsnWork";
 import OnlineReg from "./pages/OnlineReg";
+import Vendors from "./pages/Vendors";
 
 function App() {
   useEffect(() => {
@@ -49,6 +50,7 @@ function App() {
           <Route path="/userdetail" element={<EnterUserDetail />} />
           <Route path="/how" element={<HowVsnWork />} />
           <Route path="/onlinereg" element={<OnlineReg />} />
+          <Route path="/vendor" element={<Vendors />} />
         </Routes>
         <Footer />
         <FooterStrip />

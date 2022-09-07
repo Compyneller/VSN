@@ -138,6 +138,15 @@ const LgFooter = () => {
             Legal
           </Link>
         </li>
+        <li>
+          <Link
+            className="text-light"
+            to="/vendor"
+            onClick={() => window.scroll(0, 0)}
+          >
+            Vendors
+          </Link>
+        </li>
       </Col>
       <Col sm={12} md={6} lg={2}>
         <h5 style={{ fontWeight: "bold" }}>Socials</h5>
