@@ -1,5 +1,8 @@
 import { Container } from "react-bootstrap";
+import AdditionalServices from "../components/AdditionalServices";
 import BestOffers from "../components/BestOffers";
+import BuyForCash from "../components/BuyForCash";
+import BuyYourGadget from "../components/BuyYourGadget";
 import ContactUs from "../components/ContactUs";
 import CustomCarousel2 from "../components/Custom/CustomCarousel2";
 import CustomCarousel from "../components/CustomCarousel";
@@ -18,7 +21,10 @@ const Home = () => {
       {/* {window.innerWidth <= 750 ? "" : <TopHeader />} */}
       <TopHeader />
       <SellForCash />
+      <BuyForCash />
+      <AdditionalServices />
       <SellYourGadget />
+      <BuyYourGadget />
       <WhyPeopleTrustUs />
       {/* <BestOffers /> */}
       <Lakhs />

@@ -19,7 +19,7 @@ const BuySellModal = (props) => {
         <a href="#products">
           <Button onClick={props.onHide}>Continue</Button>
         </a>
-        <ol className="text-secondary my-3">
+        {/* <ol className="text-secondary my-3">
           <li>
             Click on the continue button to close the deals from the comfort of
             your home.
@@ -36,7 +36,7 @@ const BuySellModal = (props) => {
             One of our 'Customer Service Agents' will reach out to you regarding
             the product.
           </li>
-        </ol>
+        </ol> */}
       </Modal.Body>
     </Modal>
   );
